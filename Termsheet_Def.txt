@@ -1,19 +1,39 @@
-ISIN (International Securities Identification Number): ISIN is a unique code used to identify a specific financial security, such as a bond or stock. It provides a standardized way to uniquely identify the financial instrument.
+ISIN (International Securities Identification Number): 
+ISIN is a unique code used to identify a specific financial security, such as a bond or stock. It provides a standardized way to uniquely identify the financial instrument.
 
-Issuer: The issuer is the entity or organization, in this case, a bank, that is responsible for issuing the financial product. The issuer may also guarantee the product's performance.
+Issuer: 
+The issuer is the entity or organization, in this case, a bank, that is responsible for issuing the financial product. The issuer may also guarantee the product's performance.
 
-Ccy (Currency): This represents the currency in which the financial product is denominated or traded. In this case, it's indicating that the product is associated with the U.S. dollar (USD).
+Ccy (Currency): 
+This represents the currency in which the financial product is denominated or traded. In this case, it's indicating that the product is associated with the U.S. dollar (USD).
 
-Underlying(s): Underlying(s) refer to the assets, indices, or securities on which the financial product's performance is based. It specifies what the product's value or returns are tied to.
+Underlying(s): 
+Underlying(s) refer to the assets, indices, or securities on which the financial product's performance is based. It specifies what the product's value or returns are tied to.
 
-Strike: The strike price or strike date represents a specific price or date at which certain actions or events related to the financial product may occur. It is a critical parameter for options, derivatives, and other structured products.
+Strike: 
+The strike price or strike date represents a specific price or date at which certain actions or events related to the financial product may occur. It is a critical parameter for options, derivatives, and other structured products.
 
-Launch Date: The launch date is the date when the financial product is officially issued and made available for investment or trading.
+Launch Date: 
+The launch date is the date when the financial product is officially issued and made available for investment or trading.
 
-Final Valuation Day: This is the date on which the final valuation of the financial product is made, typically used to calculate the product's value or returns.
+Final Valuation Day: 
+This is the date on which the final valuation of the financial product is made, typically used to calculate the product's value or returns.
 
-Maturity: The maturity date is the date on which the financial product is set to expire or mature, at which point investors may receive their principal or final payments.
+Maturity:
+The maturity date is the date on which the financial product is set to expire or mature, at which point investors may receive their principal or final payments.
 
-Cap: A cap, in this context, represents an upper limit on potential returns for the financial product. It restricts the maximum profit an investor can earn.
+Cap:
+A cap, in this context, represents an upper limit on potential returns for the financial product. It restricts the maximum profit an investor can earn.
 
-Barrier: A barrier is a specific level or threshold that, if reached, can trigger certain events or determine the product's performance. It is often used in structured products to define conditions for early redemption, knock-out events, or other features.
+Barrier: 
+A barrier is a specific level or threshold that, if reached, can trigger certain events or determine the product's performance. It is often used in structured products to define conditions for early redemption, knock-out events, or other features.
+
+--18M Autocallable Capped Bonus Certificate Plus Worst-of on Consumer Staples Select Sector SPDR Fund, Health Care Select Sector SPDR Fund and SPDR SP 500 ETF Trust in USD
+This product is an investment vehicle with an 18-month term that might mature early under certain conditions. It has a cap on potential returns and may offer bonuses based on the performance of specified underlying assets (Consumer Staples Select Sector SPDR Fund, Health Care Select Sector SPDR Fund, and SPDR SP 500 ETF Trust) in US dollars. The worst-performing asset among the specified ones will determine the product's return.
+
+--18M Capped Bonus Certificate Plus Worst-of on DAX®, Dow Jones Industrial Average® and IBEX 35® in USD Quanto
+This product is an investment with an 18-month term that might mature early under certain conditions. It has a cap on potential returns and may offer bonuses based on the performance of the worst-performing asset among the specified underlying assets, namely DAX®, Dow Jones Industrial Average®, and IBEX 35®. The product's returns are measured in U.S. dollars, and exchange rate fluctuations do not affect its performance due to the "Quanto" feature.
+
+--18-Month USD Reverse Convertible Worst-Of on Euro Stoxx 50 Price EUR, Swiss Market Index and S&P 500, 10.80% p.a.
+Issued by Royal Bank of Canada, Toronto
+This his financial product is a structured investment with an 18-month term, and it is denominated in U.S. dollars. It is a reverse convertible, which means that if the worst-performing asset among Euro Stoxx 50 Price EUR, Swiss Market Index, and S&P 500 falls below a certain level, investors may receive the underlying asset(s) instead of their principal. The product offers a fixed annual interest rate of 10.80%, and it is issued by the Royal Bank of Canada in Toronto.
