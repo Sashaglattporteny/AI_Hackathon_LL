@@ -1,2 +1,2 @@
-# LucaZoss-AI_Hackathon_LL
-AI-Hackathon: TBD
+# AI_Hackathon_LL
+Add pruposes of the project
