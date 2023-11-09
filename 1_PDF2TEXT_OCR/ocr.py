@@ -9,11 +9,10 @@ from typing import Dict
 '''
 Authenticate
 '''
-key = '296addcde7bb4b7f904fc731b6dd8dd1'
-endpoint = 'https://llocrpdftextextraction.cognitiveservices.azure.com/'
 
-# key2 = os.getenv('Azure_Computer_Vision_key')
-# endpoint2 = os.getenv('Azure_End_point')
+
+key = os.getenv('Azure_Computer_Vision_key')
+endpoint = os.getenv('Azure_End_point')
 
 # Set credentials
 credentials = CognitiveServicesCredentials(key)
