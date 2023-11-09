@@ -1,0 +1,827 @@
+PICTET PRODUCT RISK RANKING
+Very Low
+Low
+Medium
+High
+Very High
+1
+2
+3
+4
+5
+Structured Product - Summary of Terms
+2-Year USD Bonus Certificate Worst-Of on Euro Stoxx 50 Price EUR,
+FTSE 100 Index and S&P 500
+Issued by BNP Paribas Arbitrage Issuance B.V.
+Arranger: Banque Pictet & Cie SA | 13 March 2023 | Pictet ID: AB5P75 | ISIN: XS2490610263
+This structured product is not a collective investment scheme and is not subject to the authorization of the FINMA
+(the Swiss Financial Markets Supervisory Authority).
+This Summary of Terms does not constitute a Swiss Simplified Prospectus as per article 5 CISA.
+This structured product is not issued by an entity of the Pictet Group. Please refer to the documentation of
+the Issuer (such as, but not limited to, the attached term-sheet and any other relevant documents including the
+issue prospectus, if available) which shall prevail in case of discrepancies with any information contained in this
+Summary of Terms. The information and data furnished in this material are for information purposes only.
+The selling restrictions and tax treatment are set out in the documentation of the Issuer.
+Issuer
+BNP Paribas Arbitrage Issuance B.V.
+Launch Date
+10.03.2023
+Guarantor
+BNP Paribas, Paris
+Issue Date
+17.03.2023
+Guarantor Rating (Fitch / S&P / Moody's) - (AA-/A+/Aa3)
+Final Valuation
+10.03.2025
+SVSP
+1320
+Date
+Currency
+USD (Quanto)
+Maturity Date
+17.03.2025
+Denomination
+USD 1'000
+Knock-In Type
+European
+Issuance Type
+Note, unsecured,
+Bonus Barrier
+70% of Initial Level
+unsubordinated obligations of the Issuer
+Level
+Issue Price
+100% of Denomination
+Redemption Type
+Cash
+Underlying
+Worst performing
+Bonus Level
+21.7%
+(see below Components Information table)
+Upside
+100%
+Strike Level
+100% of Initial Level
+Participation
+| STRUCTURED PRODUCT - SUMMARY OF TERMS | PAGE 1 OF 3
+
+Components Information
+i
+Name
+Bloomberg Ticker
+Currency
+Initial Valuation Date
+Initial Level
+Fixing Strike Level
+Knock-In Barrier
+1
+Euro Stoxx 50 Price EUR
+SX5E Index
+EUR
+10.03.2023
+4229.53
+Close
+4229.53
+2960.671
+2
+FTSE 100 Index
+UKX Index
+GBP
+10.03.2023
+7748.35
+Close
+7748.35
+5423.845
+3
+S&P 500
+SPX Index
+USD
+10.03.2023
+3861.59
+Close
+3861.59
+2703.113
+The worst performing component being the one with the lowest ratio, calculated as follows:
+(Observation i, t) / (Strike i), where:
+"Observation i, t" is the level of the component "i" at the observation date "t"
+"Strike i" is the level of the strike of the component "i"
+Product Mechanism
+This structured product is denominated in United States dollar with a maturity of 2 years.
+On Maturity Date, the investor will receive:
+1.
+100% + Max(Bonus Level ; [Final Underlying Level / Initial Underlying Level - 1]) of the Denomination , if the
+Underlying is at or above its Protection Barrier on the Final Valuation Date.
+2.
+Otherwise, the investor receives a cash amount equal to 100% of the Denomination × Final Level / Strike Level.
+Key Risks
+The value of the structured product may depend not only on the performance of the components and the specific
+mechanism of the structured product, but also, among others, on the credit rating of the Issuer. The investor is
+exposed to the risk of insolvency of the Issuer/guarantor of the structured product (counterparty risk).
+On top of that, the investor may face the liquidity risk, meaning that they may not be able to instantly sell the
+product in the market or to obtain a price for the structured product due to the lack of demand on the relevant
+market.
+Please refer to the documentation of the Issuer for additional specific risks pertaining to the structured product.
+The Pictet PRR (Product Risk Ranking) is a measure that categorizes the intrinsic risk of a financial instrument in 5
+levels (from 1 = "Very Low Risk" to 5 = "Very High Risk"). The methodology used to compute the PRR considers the
+risk of the underlying asset class, the risk derived from the specificities of the instrument but also the risk derived
+from the market conditions.
+| STRUCTURED PRODUCT - SUMMARY OF TERMS | PAGE 2 OF 3
+
+DISCLAIMER
+This material (the "material") is not intended for and shall neither be provided to nor used by persons who are citizens of, domiciled or resident in, or entities
+registered in a country or a jurisdic-tion in which its distribution, publication, provision or use would violate current laws and regulations.
+The financial products mentioned in this material might not be registered with or approved by the relevant regulatory authority. Public distribution may therefore
+not be permitted and private placements may be restricted to specific type of clients.
+Offerings are only allowed in accordance with the applicable local laws and regulations. Detailed selling restrictions of the relevant financial products may apply
+and need to be considered.
+The content of this material has been prepared without taking into account your particular objectives, needs, financial situation, knowledge or experience. This
+material and/or the financial products mentioned herein might not be suitable for you.
+Therefore, you should consider the suitability of the transaction to individual circumstances and objectives and independently assess, with a professional advisor,
+the specific financial risks as well as any legal, regulatory, credit, tax and accounting consequences. You are fully responsible for your investments.
+The information and data furnished in this material are for information purposes only. Banque Pictet & Cie SA or any other entity of the Pictet Group (hereinafter,
+"the Bank") is not liable for them nor do they constitute advice, an offer, an invitation or recommendation to make, hold or terminate an investment. The information
+contained herein is not the result of independent financial analysis and does therefore not qualify as financial research. All information and opinions expressed in
+this material were obtained in good faith from sources believed to be reliable. Prices, values or returns of any investment mentioned in this material are based on the
+Bank's customary sources of financial data.
+Unless specifically stated otherwise, such information is indicative only and may change without notice. The Bank is under no obligation to update the information
+contained in this material and no representation or warranty, express or implied, is made as to its accuracy or completeness.
+The market value of financial products may vary on the basis of economic, financial or political changes, the remaining term, market conditions, the volatility and
+solvency of the issuer or the benchmark issuer. Some investments may not be readily realizable as the relevant market may be illiquid. Moreover, exchange rates
+may have a positive or negative effect on the value, the price or the return of the respective product. The political and economic situation in emerging countries is
+significantly less stable than in industrialized countries and related investments are exposed to higher risks and volatility. Forecasts and past performance are not
+reliable indicators or guarantees of future results. No express or implied warranty is given as to future performance. Any performance shown does not take into
+account commissions and costs (which negatively impact the performance).
+You shall only take investment decisions when you fully understand the relevant financial product and the involved risks. In particular, the relevant product
+documentation (such as the issuance program, final terms, prospectus, simplified prospectus and key (investor) information document) as well as the brochure
+"Special Risks in Securities Trading" of the Swiss Bankers Association shall be read. Structured products are complex financial products and involve a high degree
+of risk. In Switzerland, they do not qualify as collective investment schemes within the meaning of the Swiss Federal Act on Collective Investment Schemes (CISA),
+and are therefore not subject to the regulations of the CISA or the supervision of the Swiss Financial Market Supervisory Authority (FINMA). The value of structured
+products depends not only on the performance of the underlying asset(s), but also on the credit rating of the issuer. Furthermore, the investor is exposed to the risk
+of default of the issuer/guarantor.
+If this material contains a link to a key Information Document of a Package Retail and Insurance-based Investment Product ("KID") or an Undertaking for Collective
+Investment in Transferable Securities ("KIID"), please note that the respective KID/KIID may change without notice. In order to access the most recent version of the
+respective KID/KIID, click on the link immediately before confirming to the Bank your decision to invest.
+If the Bank is not the manufacturer of the product(s), the KID/KIID is provided by a third party (the "Third Party Document"). The Third Party Document is obtained
+from sources believed to be reliable. The Bank does not make any guaranty or warranty as to the correctness and accuracy of the data contained in the Third Party
+Document. The Bank may not be held liable for an investment decision or other transaction made based on reliance on, or use of, the data contained in the Third
+Party Document.
+By subscribing to the product(s) proposed herein, you acknowledge that you have (i) received, in good time, read and understood any relevant documentation linked
+to the product(s), including, as the case may be, the respective KID/KIID; (ii) taken note of the product(s) restrictions; and (iii) met the applicable subjective and
+objective eligibility conditions to invest in the product(s).
+The Bank may rely on these acknowledgements and sign, on your behalf, any documents or certificates needed to subscribe to the product(s). Further, by subscribing
+to the product(s), you agree to indemnify and hold harmless the Bank for any and all claims, losses and damages it may incur in connection with the investment in
+the product(s).
+The Bank and its affiliates (or employees thereof) may or may not have long or short positions in, and buy or sell, any of the commodities, futures, securities or other
+instruments and investment mentioned herein, or derivatives on any of the same.
+As arranger, the Bank may acquire this product at a discount. Further information is available from the Bank upon request.
+The content of this material shall only be read and/or used by its addressee. Any form of reproduction, copying, disclosure, modification and/or publication in any
+form or by any means whatsoever is not permitted without the prior written consent of the Bank and no liability whatsoever will be incurred by the Bank. The
+addressee of this material agrees to comply with the applicable laws and regulations in the jurisdictions where they use the information provided in this material.
+This document may be distributed by:
+Banque Pictet & Cie SA, route des Acacias 60, 1211 Genève 73, Switzerland, is established in Switzerland and licensed under Swiss Law and therefore subject to the
+supervision of the Swiss Financial Market Supervisory Authority (FINMA), Laupenstrasse 27, 3003 Berne, Switzerland.
+Pictet & Cie (Europe) SA, 15A, avenue J.F. Kennedy, 1855 Luxembourg is established in Luxembourg and supervised by the Commission de Surveillance du Secteur
+Financier (CSSF), 283, route d'Arlon, 1150 Luxembourg.
+Pictet Bank & Trust Limited is a bank and trust company located in Nassau, New Providence, The Bahamas. Its Registered Office is located at Building 1, Bayside
+Executive Park, West Bay Street & Blake Road, Nassau. It is licensed and regulated by the Central Bank of The Bahamas and the Securities Commission of The
+Bahamas.
+All rights reserved. Copyright 2018
+| STRUCTURED PRODUCT - SUMMARY OF TERMS | PAGE 3 OF 3
+
+BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+The bank for a changing world
+Final Term Sheet as of March 13th, 2023
+2Y Bonus Certificate Plus Worst-of on EURO STOXX 50®,
+FTSE100 and S&P 500® in USD Quanto
+Our ref. : CE25830MBG;
+ISIN: XS2490610263;
+Valoren: 125697787;
+SSPA Product Type: Bonus
+Certificates (1320)
+Investors bear the credit risk of the Issuer and the Guarantor respectively.
+This product is not a collective investment scheme as per the Federal Act on Collective Investment Schemes (CISA)
+and thus is not subject to the registration and the supervision of the Swiss Financial Market Supervision Authority
+(FINMA). Therefore, investors in this product are not eligible for the specific investor protection under the Federal Act
+on Collective Investment Schemes.
+This document is available exclusively in English.
+This document constitutes advertising within the meaning of article 68 of the Swiss Financial Service Act (FinSA).
+It does not constitute a prospectus with the meaning of article 35 et seq. of the FinSA neither the final terms nor a key
+information document with the meaning of article 58 et seq. of the FinSA. This document has not been reviewed or
+approved by or filed with a reviewing body pursuant to article 51 et seq. of the FinSA. This document does not, and is
+not intended to, constitute an offer or invitation to sell and it is not soliciting offers to buy the product in any
+jurisdiction where such offer or sale is no permitted.
+1.
+PRODUCT DESCRIPTION
+The following product is a derivative financial instrument, offering the investor the maximum between a certain bonus level and
+a participation in the performance of the lowest-performing Underlying Index as long as the lowest-performing Underlying Index
+closes at or above its Knock-out Level on the Redemption Valuation Date.
+If the lowest-performing Underlying Index closes below its Knock-out Level on the Redemption Valuation Date, the conditional
+protection is terminated and the product will be redeemed at par or by cash settlement at the official closing level of the lowest-
+performing Underlying Index on the Redemption Valuation Date.
+Issuer
+BNP Paribas Issuance B.V. (S&P's A+) (on an unsecured basis)
+Issuer's Domicile
+Herengracht 595 - 1017 CE Amsterdam - The Netherlands
+Issuer's Prudential
+Supervision
+BNP Paribas Issuance B.V. is not subject to a prudential supervision.
+Guarantor
+BNP Paribas (S&P's A+ / Moody's Aa3 / Fitch AA-) (on an unsecured basis)
+Guarantor's Domicile
+16 boulevard des Italiens - 75009 Paris - France
+Guarantor's Prudential
+BNP Paribas is authorised and supervised by European Central Bank (ECB) and the Autorité de
+Supervision
+Contrôle Prudentiel et de Résolution (ACPR).
+Principal Security Agent BNP Paribas Arbitrage S.N.C.
+Principal Security
+Agent's Domicile
+1 rue Laffitte 75009 Paris, France
+Calculation Agent
+BNP Paribas Arbitrage S.N.C.
+Calculation Agent's
+Domicile
+1 rue Laffitte 75009 Paris, France
+Issue Type
+Certificate
+Seniority
+Unsecured Certificate
+Swiss Offering
+Yes
+________________________________________________________________________________________________________________________________________________________________________________________
+Issue Amount
+USD 2,000,000
+Equity Derivatives Solutions
+1
+
+BNP PARIBAS
+The bank for a changing world
+CORPORATE & INSTITUTIONAL BANKING
+Number of Certificates
+2,000
+Notional Amount per
+Certificate (N)
+1 Certificate = USD 1,000
+Settlement Currency
+USD Quanto
+Issue Price per
+Certificate
+100.00%
+US Withholding Tax
+Not applicable. However, if this security is significantly modified, a further amount is issued or
+under the Section
+certain sales are made out of inventory after first issuance, its status as to the application of
+871(m) Regulations
+Section 871(m) may change.
+Prospective investors, particularly investors that are not United States taxpayers, should consult
+their tax advisors regarding these regulations and their potential impact on payments under this
+security.
+________________________________________________________________________________________________________________________________________________________________________________________
+Trade Date
+March 10th, 2023
+Strike Date
+March 10th, 2023
+Issue Date
+March 17th, 2023
+Redemption Valuation
+March 10th, 2025
+Date
+Redemption Date
+March 17th, 2025
+________________________________________________________________________________________________________________________________________________________________________________________
+Underlying Indices
+i
+Name of Underlying
+Bloomberg
+Indexi
+Indexi
+Initial
+Administrator
+Register
+Code
+1
+EURO STOXX 50
+SX5E
+4229.53
+STOXX Ltd.
+Included
+2
+FTSE100
+UKX
+7748.35
+FTSE
+Included
+International
+Limited
+3
+S&P 500®
+SPX
+3861.59
+S&P Dow
+Included
+Jones
+Indices LLC
+Final Redemption
+On the Redemption Date, the Issuer shall redeem each Certificate at the following Cash
+Settlement Amount:
+1) If a Knock-out Event has not occurred:
+N x max
+121.70%.
+WO IndexFinal
+WO IndexInitial
+2) If a Knock-out Event has occurred:
+Nx :
+WO Index Final
+WO IndexInitial
+Where
+WO Index is the Underlying Index with the worst performance from the Strike Date to the
+Redemption Valuation Date, defined as:
+Index'Final
+TT IndexInitial
+3
+WO IndexInitial is the official closing level of WO Index on the Strike Date.
+WO IndexFinal is the official closing level of WO Index on the Redemption Valuation Date.
+Indexi
+Initial with i from 1 to 3 is the official closing level of the Indexi
+on the Strike Date.
+Equity Derivatives Solutions
+2
+
+BNP PARIBAS
+The bank for a changing world
+CORPORATE & INSTITUTIONAL BANKING
+Indexi
+Final with i from 1 to 3 is the official closing level of the Indexi
+on the Redemption
+Valuation Date.
+Knock-out Level
+EURO STOXX 50® - 2,960.6710 (70% of Index1
+FTSE100 - 5,423.8450 (70% of Index2
+Initial)
+S&P 500® - 2,703.1130 (70% of Index3
+Initial)
+Initial)
+Knock-out
+Determination Day
+The Redemption Valuation Date.
+Knock-out Valuation
+Time
+Specific Scheduled Closing Time of each Underlying Index on the Redemption Valuation Date.
+Knock-out Event
+A Knock-out Event shall be deemed to occur if, at the Knock-out Valuation Time on the Knock-
+out Determination Day, at least one Underlying Index closes at a level strictly less than its Knock-
+out Level.
+________________________________________________________________________________________________________________________________________________________________________________________
+Business Day
+Convention
+Following Business Day
+Business Days for
+payment
+New York
+Governing Law
+English law
+Jurisdiction
+Jurisdiction of the Courts of England
+Security
+Guarantee of Guarantor, subject to English law and jurisdiction of the Courts of England
+Listing
+None
+Minimum Trading Size
+1 Certificate (and multiples of 1 Certificate thereafter)
+Minimum Exercise
+Not applicable
+Issuer's Web Page /
+https://rates-globalmarkets.bnpparibas.com/gm/Public/LegalDocs.aspx
+Publication
+The Base Prospectus can be viewed at the Issuer's Web Page and the website of the
+Luxembourg Stock Exchange (www.bourse.lu).
+If there are any unforeseen changes to the conditions for the Certificates during their term, these
+will be notified to the holders of the Certificates ("Holders") via the Clearing Systems in
+accordance with the Terms and Conditions and will be published on the Issuer's Web Page.
+Fees/Discount
+The reference to Issue Price is not an expression of market value and does not imply that
+transactions in the market will not be executed at prices above or below such Issue Price to
+reflect prevailing market conditions.
+In connection with the offer and sale of the Certificates, the distributor may purchase the
+Certificates from BNP Paribas Arbitrage S.N.C. at a discount to the Issue Price or at the Issue
+Price. If the distributor purchases the Certificates at the Issue Price, BNP Paribas Arbitrage
+S.N.C. will pay to the distributor a distribution fee. Alternatively, the Certificates may be sold
+directly to the purchasers/investors pursuant to an offer and sale arranged by the distributor. In
+these circumstances BNP Paribas Arbitrage S.N.C. will pay to the distributor a distribution fee.
+Such discount/distribution fee received by the distributor may be in addition to the brokerage
+cost/fee normally applied by the distributor. Further information regarding such
+discount/distribution fee is available from the distributor on request.
+The discount/distribution fee covers distribution cost for a maximum annual amount equivalent to
+0.18% p.a. (all tax included) of the amount of the Certificates placed by the distributor.
+The purchaser/investor is hereby advised that such discount/distribution fee may be retained by
+the distributor.
+Equity Derivatives Solutions
+3
+
+BNP PARIBAS
+The bank for a changing world
+CORPORATE & INSTITUTIONAL BANKING
+Documentation
+This document is for information purposes only and is only a summary of the key terms of the
+product. It is not a prospectus within the meaning of article 35 et seq. of the FinSA neither the
+final terms nor a key information document with the meaning of article 58 et seq. of the
+FinSA. This document has not been reviewed or approved by or filed with a reviewing
+body pursuant to article 51 et seq. of the FinSA.
+This document is not an offer to buy the securities described.
+It constitutes advertising within the meaning of article 68 of FinSA.
+Legal Documentation for this product comprises the Final Terms of the Certificates to be
+dated the Issue Date, the guarantee and the Base Prospectus for the BNP Paribas
+Issuance B.V. / BNP Paribas S.A. Warrant and Certificate Programme dated 1 June 2022,
+as supplemented from time to time (the "Legal Documentation"). In case of inconsistency
+between this document and the Final Terms, the Final Terms shall prevail. The Final Terms and
+Base Prospectus are available free of charge from BNP Paribas on request. This document must
+be read in conjunction with the Final Terms (when available) and the Base Prospectus.
+The product may be offered, sold or advertised, in Switzerland to retail clients in the meaning of
+the FinSA ("Retail Clients") in accordance with the FinSA. A key information document (the KID)
+in accordance with FinSA has been prepared in relation to the product
+This Legal Documentation and the KID may be obtained [free of charge from BNP Paribas
+(Suisse) SA, 2 place de Hollande, Case postale, 1211 Genève 11, Switzerland.
+Any terms not otherwise defined herein will have the meanings given to them in the Base
+Prospectus.
+Form
+Clearing System Global Certificate
+Initial
+Delivery versus payment.
+Settlement/Clearing
+BNP Paribas Arbitrage S.N.C. will settle through Clearstream 81851.
+Settlement must be made in Nominal.
+Codes
+ISIN: XS2490610263
+-
+Common: 249061026
+-
+Valoren: 125697787
+-
+CFI: DEAVRB
+-
+FISN: BNPPIBV/VARI CTF NKG 20250317 BSKT
+-
+Issuer LEI
+7245009UXRIGIRYOBR48
+Reuters Ric for Structure XS2490610263=BNPP
+Common Depositary
+BNP PARIBAS SA, Luxembourg Branch
+Common Depositary's
+Domicile
+60, avenue J.F. KENNEDY L-1855 Luxembourg
+Secondary Trading
+Daily price indications including accrued interest (dirty) will be published on Bloomberg and
+Telekurs.
+No representation is made as to the existence of a market for the Certificates. BNP Paribas
+Arbitrage S.N.C. will endeavour to make a secondary market in the Certificates, subject to it
+being satisfied that normal market conditions prevail. Any prices indicated will be dependent
+upon factors affecting or likely to affect the value of the Certificates such as, but not limited to,
+the remaining time to the Redemption Date, the outstanding principal amount, the Issuer's or, if
+applicable, the Guarantor's credit risk, the performance and volatility of the underlying asset,
+interest rates, exchange rates, credit spreads, and any incidental costs. To the extent BNP
+Paribas Arbitrage S.N.C. holds Certificates that it can offer and subject to it being satisfied that
+normal market conditions prevail, such prices will have a bid-offer spread no greater than 1%.
+Holders should be aware that the secondary market price for any Certificate quoted on or after
+the fourth (4th) Clearing System Business Day preceding any date on which the Issuer is due to
+make a payment thereon, shall exclude the amount so payable per Certificate. The Holder of the
+Certificates on the record date, as determined by the rules of the relevant Clearing System, shall
+be entitled to receive or retain any such amount on the due date for payment thereof.
+Equity Derivatives Solutions
+4
+
+BNP PARIBAS
+The bank for a changing world
+CORPORATE & INSTITUTIONAL BANKING
+Swiss Tax Information
+The following Swiss tax summary is valid at the time of the issuance of the product.
+It is for general information only and does not purport to be a comprehensive description of all
+Swiss tax consequences that may be relevant to a decision to purchase, own or dispose of the
+product. Swiss tax laws and the practice of the Swiss tax authorities may change, possibly with
+retroactive effect. Prospective Swiss resident, EU resident and third country resident purchasers
+of the product should consult their own tax advisers concerning the tax consequences of
+purchasing, holding and disposing of the product in the light of their particular circumstances.
+Swiss Federal
+This product is subject to Swiss stamp duty.
+Stamp Duty
+Therefore, secondary market transactions are subject to Swiss stamp duty.
+Swiss Withholding
+Tax
+The product is not subject to the Swiss withholding tax.
+Swiss Income Tax
+This product is classified as transparent, where the majority of the return of the bondpart is in the
+form of a payment at redemption (IUP). Therefore, private investor with tax domicile in
+Switzerland, is subject to the Swiss Federal Income Tax on the difference between the bondfloor
+at purchase and the bondfloor at sale or redemption (if denominated in foreign currency these
+amounts must be converted into CHF by applying the prevailing exchange rate at purchase date
+and sale or redemption date when applicable). The present value of the bond part at issue is
+91.0349% (ref.rate: 4.6454%).
+However, any gain derived from the option is considered as a capital gain and therefore for such
+investor not subject to the Swiss federal, cantonal or communal Income Tax.
+Automatic
+Switzerland has implemented the Automatic Exchange of Information in Tax Matters ("AEOI")
+as
+Exchange of
+of 1st January 2017 with the EU and various other countries and is negotiating the introduction of
+Information in Tax
+the AEOI with further countries. The website "www.sif.admin.ch" provides an overview of all
+Matters
+partner states Switzerland has signed an agreement for the introduction of the AEOI. In this
+context the EU Savings Tax for Swiss paying agents and the Final Withholding Tax with UK and
+Austria have been repealed as from 1st January 2017.
+The tax information provided herein is a non-binding summary and only provides a general overview of the potential
+Swiss tax consequences linked to this product at the time of issue. Tax laws and tax interpretation may change at any
+time, possibly with retroactive effect. Investors and prospective investors are advised to consult with their tax advisers
+with respect to the Swiss tax consequences of the purchase, ownership, disposition, lapse or exercise or redemption
+of a Product in light of their particular circumstances. The BNP Paribas entities expressly exclude any liability in
+respect of any possible tax implications.
+2.
+PROSPECTS FOR PROFITS AND LOSSES
+Market Expectations
+A Bonus Certificate offers the possibility to participate in the positive performance of the
+underlying. Investors in a Bonus Certificate expect the underlying to move sideways or to rise
+and do not expect the underlying to breach the barrier during the product lifetime
+Profits Prospects
+The following product is a derivative financial instrument, offering the investor the maximum
+between a certain bonus level and a participation in the performance of the Underlying as long
+as it closes at or above its Knock-out Price on the Redemption Valuation Date.
+Loss Prospects
+If the Underlying closes below its Knock-out Price on the Redemption Valuation Date, the
+conditional protection is terminated and the product will be redeemed by cash settlement at
+theofficial closing price of the Underlying on the Redemption Valuation Date.
+In the event that the Certificates are redeemed early as a consequence of force majeure,
+illegality or certain other events affecting the Underlying(s) and/or hedge, Holders may receive
+an amount per Certificate equal to the fair market value of each Certificate less the cost to the
+Issuer and/or its affiliates of unwinding any underlying related hedging arrangements. Such
+amount may be less than the Notional Amount or even zero.
+Risk Tolerance
+Holders of this product should be experienced and familiar with both derivative products and the
+Underlying. Holders must be willing to make an investment that is exposed to the full down-side
+risk of the Underlying. Holders do not require capital protection.
+________________________________________________________________________________________________________________________________________________________________________________________
+3.
+IMPORTANT RISKS
+This section cannot disclose all the risks related to the product and must be read in conjunction with the risks set out
+under Risk Factors in the Base Prospectus as amended from time to time :
+Equity Derivatives Solutions
+5
+
+BNP PARIBAS
+The bank for a changing world
+CORPORATE & INSTITUTIONAL BANKING
+General
+An investment in the Certificates involves a high degree of risk, which may include, among
+others, price risks associated with the Underlying(s), interest rate, foreign exchange, market,
+time value and political risks.
+Potential investors must have the knowledge and experience necessary to enable them to
+evaluate the risks and merits of an investment in the Certificates. A prospective investor should
+determine, based on its own independent review and such professional advice (including,
+without limitation, tax, accounting, credit, legal and regulatory advice) as it deems appropriate
+under the circumstances, that its acquisition and holding of the Certificates (i) is fully consistent
+with its financial needs, objectives and condition, (ii) complies and is fully consistent with all
+investment policies, guidelines and restrictions applicable to it and (iii) is a fit, proper and suitable
+investment for it, notwithstanding the clear and substantial risks inherent in investing in or holding
+the Certificates. In making such determination, a prospective investor should consider carefully
+all the information set forth in the Final Terms and the Base Prospectus.
+No Capital Protection
+The Certificates are not capital protected at any time. There is a risk of total capital loss, and
+therefore an investment in the Certificates is highly speculative, involving significant risk,
+including the possible loss of all the entire amount invested, and should therefore only be
+considered by persons who can afford a loss of all of their investment.
+Index Linked Risks
+An investment in Certificates linked to a basket of Indices entails significant risks not associated
+with an investment in a conventional debt security. On redemption Holders will receive an
+amount (if any) determined by reference to the value of the Indices. Potential investors should
+take advice accordingly. The movements in the level of an index may be subject to significant
+fluctuations that may or may not correlate with other indices, changes in interest rates or
+currencies and the timing of changes in the relevant level of the index may affect the actual yield
+to Holders, even if the average level of the index is consistent with their expectations.
+Early Redemption
+The Terms and Conditions in the Base Prospectus provide for early redemption on the
+occurrence of force majeure, illegality and certain other events affecting the Underlying(s) and/or
+the hedge, whereupon the Calculation Agent shall calculate the fair market value of each
+Certificate less the cost to the Issuer and/or its affiliates of unwinding any underlying related
+hedging arrangements, all as determined by the Calculation Agent in its sole and absolute
+discretion. Payment will be made in such manner as shall be notified to Holders in accordance
+with the Condition 10 of the Base Prospectus. The amount Holders receive as a consequence of
+such early redemption may be less than the Notional Amount per Certificate or even zero.
+Holders who choose to reinvest monies received as a consequence of early redemption of the
+Certificates may be able to do so only in securities with a lower yield than the redeemed
+Certificates.
+Issuer and Guarantor
+Certificates are unsecured obligations: The Certificates retention of value is dependent not only
+Risk
+on the development of the value of the Underlying(s), but also the creditworthiness of the Issuer
+and the Guarantor, which may change over the term of the product. The Certificates are
+unsubordinated and unsecured obligations of the Issuer and will rank pari passu with all other
+unsubordinated and unsecured obligations of the Issuer. The obligations of the Guarantor under
+the Guarantee are unsecured obligations of the Guarantor and will rank pari passu with all its
+other present and future senior preferred and unsecured obligations, subject as may from time to
+time be mandatory under French law.
+In addition, the Issuer's and the Guarantor's ability to fulfil their obligations under the Certificates
+may be affected by certain other factors, including liquidity risks, market risks, credit risks, cross-
+border and foreign exchange risks, operational risks, legal and regulatory risks and competition
+risks.
+Equity Derivatives Solutions
+6
+
+BNP PARIBAS
+The bank for a changing world
+CORPORATE & INSTITUTIONAL BANKING
+Possible Illiquidity of the
+It is not possible to predict the price at which Certificates will trade in the secondary market. The
+Certificates in the
+trading market for the Certificates may be volatile and may be adversely impacted by many
+Secondary Market
+events. An active trading market for the Certificates may not develop. The Issuer and/or its
+affiliates may (but is not obliged to) at any time purchase Certificates in the open market. Any
+Certificates so purchased may be resold or surrendered for cancellation. To the extent the
+Certificates are cancelled the number of Certificates outstanding will decrease resulting in
+diminished liquidity for the remaining Certificates. A decrease in the liquidity of the Certificates
+may cause, in turn, an increase in the volatility associated with the price of the Certificates. There
+may be no secondary market for the Certificates and to the extent that such secondary market
+becomes illiquid, Holders may have to wait until redemption of the Certificates to realise greater
+value than their then trading value.
+Unpredictable Market
+The market value of, and expected return on, the Certificates may be influenced by a number of
+Value
+factors, some or all of which may be unpredictable (and which may offset or magnify each other),
+such as (i) supply and demand for the Certificates, (ii) the development of the value of the
+Underlying(s) (iii) economic, financial, political and regulatory or judicial events that affect the
+Issuer, the Guarantor, the Underlying(s) or financial markets generally, (iv) interest and yield
+rates in the markets generally, (v) the time remaining until the Redemption Date and (vi) the
+creditworthiness of the Issuer and the Guarantor. Such factors may mean that the trading price
+of the Certificates is below the Notional Amount. In the secondary market a bid/ask spread will
+generally apply. Holders who choose to sell their Certificates prior to maturity may receive less
+than the amount invested.
+Effective yield
+A Holder's actual yield on the Certificates may be reduced from the stated yield by transaction
+costs or the tax impact on that Holder of its investment in the Certificates.
+Additional Risks
+In addition, investors should read the section in the Base Prospectus entitled 'Risk Factors'.
+IMPORTANT INFORMATION
+Neither BNP Paribas nor any of its affiliates gives any assurance that any Certificate will be issued or any transaction will be entered into on the
+basis of the terms set out in this document. The information contained in this document is provided to you alone and you agree that it may not
+be distributed by you other than in compliance with the applicable securities laws and regulations in force in the jurisdiction(s) in which you offer
+the Certificates described in this document (the "Certificates"). If you have received a copy of this document from anyone other than BNP
+Paribas or any distributor, it will not contain all the information required for you to assess its contents.
+BNP Paribas is not providing the recipients of this document with any investment advice or recommendation to enter into any potential
+transaction. Any purchaser of Certificates, other than a BNP Paribas counterparty or distributor, will be purchasing the Certificates from such
+counterparty or distributor and will have no contractual relationship with BNP Paribas or any of its affiliates. In particular BNP Paribas will not be
+responsible for assessing the appropriateness or suitability of an investment in the Certificates in relation to such third parties.
+The information contained in this document is not complete and is subject to completion and amendments. This document should be read
+together with the base prospectus for the Certificates (including any Supplements to it, the "Base Prospectus") and the applicable Final Terms
+for the Certificates (when available) and these documents prevail over any prior communications or materials relating to the terms of the
+Certificates. Potential investors should carefully read the sections headed "Risk Factors" in the Base Prospectus and the Final Terms for a full
+description of the potential risks associated with the Certificates, and "Offering and Sale", for certain limitations on the purchase and onward
+sales of the Certificates.
+Any illustrative price quotations, investment cases or market analysis contained in this document or any related marketing materials we may
+have provided to you have been prepared on assumptions and parameters that reflect our good faith judgment or selection but must be subject
+to your own independent analysis and due diligence before you make any investment decision. Any reference to an Issue Price in this
+document is not necessarily an expression of the market value of the Securities. You should conduct your own independent analysis or seek
+independent advice as to any market value of the Securities. Please note that there can be conflicts of interests between BNP Paribas and
+potential investors (see below) and we can therefore not assume any responsibility for the financial consequences of your investment decision,
+which must be independent. We require that you undertake your own independent due diligence and avail yourself of your own advisors in order
+to assess the suitability of the Certificates in relation to your own financial objectives. Accordingly, if you decide to purchase the Certificates, you
+will be deemed to understand and accept the terms, conditions and risks associated with the Certificates. You will also be deemed to act for
+Equity Derivatives Solutions
+7
+
+The bank for a changing world
+BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+your own account, to have made your own independent decision to purchase the Certificates and to declare that such transaction is appropriate
+for you based upon your own judgment the advice from such advisers as you have deemed necessary to consult. Each holder of the
+Certificates shall also be deemed to assume and be responsible for any and all taxes of any jurisdiction or governmental or regulatory authority
+and should consult their own tax advisers in this respect.
+You should note and assess for the purposes of any investment decision that members of the BNP Paribas group may face possible conflicts of
+interest in connection with certain duties under the Certificates, such as trading in an underlying for their own account or for the account of
+others, receiving fees in a number of capacities or taking market views which are not consistent with the objective of the Certificates.
+Investors Responsibilities
+The Certificates may be distributed under a public offer in Switzerland however no action has been or will be taken in any other jurisdiction that
+would, or is intended to, permit a public offering of the Certificates.
+The Certificates are sold to investors on the understanding that they will comply with all relevant securities laws and public offer requirements in
+the jurisdictions in which the Certificates are placed or resold, including, without limitation, the Prospectus Regulation and the relevant
+applicable laws or regulations in any EU member state relating thereto.
+Selling Restrictions
+The Certificates may not be offered or sold in the United States or to U.S. persons at any time (as defined in regulation S under the U.S.
+Securities Act of 1933 or the U.S. internal revenue code). The Certificates have not been and will not be registered under the U.S. Securities
+Act of 1933, as amended, or the securities laws of any state in the United States, and are subject to U.S. tax requirements. In purchasing the
+Certificates you represent and warrant that you are neither located in the United States nor a U.S. person and that you are not purchasing for
+the account or benefit of any such person. The Certificates may not be offered, sold, transferred or delivered without compliance with all
+applicable securities laws and regulations.
+Investors should note that BNP Paribas acting as Guarantor is licensed as a credit institution in France and as such is subject to the
+new resolution regime introduced by the EU Bank Recovery and Resolution Directive of 15 May 2014. This new regulation, among
+others, gives resolution authorities the power to amend the key terms of the Guarantee, to reduce the amounts payable by the
+Guarantor under the terms of the Guarantee (including a reduction to zero) and convert the amounts due under the Guarantee into
+shares or other securities. You may not be able to recover all or even part of the amount due under the Certificates (if any) from the
+Guarantor under the Guarantee or you may receive a different security issued by the Guarantor (or another person) in place of the
+amount (if any) due to you under the Certificates by the Issuer, which may be worth significantly less than the amount due to you
+under the Certificates at expiry.
+BNP Paribas is lead supervised by the ECB and the ACPR and is authorised by the ECB and the ACPR. BNP Paribas is incorporated in France
+with Limited Liability. Registered Office: 16 Boulevard des Italiens, 75009 Paris, France. www.bnpparibas.com.
+© BNP Paribas. All rights reserved.
+Index Disclaimer
+Neither the Issuer nor the Guarantor shall have any liability for any act or failure to act by an Index Sponsor in connection with the calculation,
+adjustment or maintenance of an Index. Except as disclosed prior to the Issue Date, neither the Issuer, the Guarantor nor their affiliates has any
+affiliation with or control over an Index or Index Sponsor or any control over the computation, composition or dissemination of an Index.
+Although the Calculation Agent will obtain information concerning an Index from publicly available sources it believes reliable, it will not
+independently verify this information. Accordingly, no representation, warranty or undertaking (express or implied) is made and no responsibility
+is accepted by the Issuer, the Guarantor, their affiliates or the Calculation Agent as to the accuracy, completeness and timeliness of information
+concerning an Index.
+8
+EURO STOXX 50® Index
+STOXX Limited, Deutsche Börse Group and their licensors, research partners or data providers have no relationship to BNP PARIBAS, other
+than the licensing of the EURO STOXX 50® Index and the related trademarks for use in connection with the Securities.
+STOXX, Deutsche Börse Group and their licensors, research partners or data providers do not:
+Sponsor, endorse, sell or promote the Securities.
+–
+Equity Derivatives Solutions
+
+The bank for a changing world
+BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+Recommend that any person invest in the Securities or any other securities.
+–
+Have any responsibility or liability for or make any decisions about the timing, amount or pricing of Securities.
+–
+Have any responsibility or liability for the administration, management or marketing of the Securities.
+–
+Consider the needs of the Securities or the owners of the Securities in determining, composing or calculating the EURO STOXX 50® Index
+–
+or have any obligation to do so.
+STOXX, Deutsche Börse Group and their licensors, research partners or data providers give no warranty, and exclude any liability
+(whether in negligence or otherwise), in connection with the Securities or their performance.
+STOXX does not assume any contractual relationship with the purchasers of the Securities or any other third parties.
+Specifically,
+STOXX, Deutsche Börse Group and their licensors, research partners or data providers do not give any warranty, express or implied, and
+exclude any liability about:
+The results to be obtained by the Securities, the owner of the Securities or any other person in connection with the use of the EURO STOXX
+–
+50® Index and the data included in the EURO STOXX 50® Index;
+The accuracy, timeliness, and completeness of the EURO STOXX 50® Index and its data;
+–
+The merchantability and the fitness for a particular purpose or use of the EURO STOXX 50® Index and its data;
+–
+The performance of the Securities generally.
+–
+STOXX, Deutsche Börse Group and their licensors, research partners or data providers give no warranty and exclude any liability, for any
+errors, omissions or interruptions in the EURO STOXX 50® Index or its data;
+Under no circumstances will STOXX, Deutsche Börse Group or their licensors, research part ners or data providers be liable (whether in
+negligence or otherwise) for any lost profits or indirect, punitive, special or consequential damages or losses, arising as a result of such errors,
+omissions or interruptions in the EURO STOXX 50® Index or its data or generally in relation to the Securities, even in circumstances where
+STOXX, Deutsche Börse Group or their licensors, research partners or data providers are aware that such loss or damage may occur.
+The licensing Agreement between BNP PARIBAS and STOXX is solely for their benefit and not for the benefit of the owners of the Securities or
+any other third parties.
+FTSE100 Index
+The Securities are not in any way sponsored, endorsed, sold or promoted by FTSE International Limited ("FTSE") or by the London Stock
+Exchange Plc (the "Exchange") or by The Financial Times Limited ("FT") and neither FTSE nor Exchange nor FT makes any warranty or
+representation whatsoever, expressly or impliedly, either as to the results to be obtained from the use of the FTSE100 Index ("the Index") and/or
+the figure at which the said Index stands at any particular time on any particular day or otherwise. The Index is compiled and calculated by
+FTSE. However, neither FTSE nor Exchange nor FT shall be liable (whether in negligence or otherwise) to any person for any error in the Index
+and neither FTSE or Exchange or FT shall be under any obligation to advise any person of any error therein. "FTSE®", "FT-SE®" and
+"Footsie®" are trade marks of the London Stock Exchange Plc and The Financial Times Limited and are used by FTSE International Limited
+under licence. "All-World", "All-Share" and "All-Small" and "FTSE4Good" are trade marks of FTSE International Limited.
+S&P 500® Index
+The S&P 500® Index (the "INDEX") is a product of S&P Dow Jones Indices LLC, a division of S&P Global, or its affiliates ("SPDJI"), and has
+been licensed for use by BNP Paribas (the "Licensee"). Standard & Poor's® and S&P® are registered trademarks of Standard & Poor's
+Financial Services LLC, a division of S&P Global ("S&P"); Dow Jones® is a registered trademark of Dow Jones Trademark Holdings LLC ("Dow
+Jones"); It is not possible to invest directly in an index. The issue of Securities (the "Licensee's Product(s)") are not sponsored, endorsed, sold
+or promoted by SPDJI, Dow Jones, S&P, any of their respective affiliates (collectively, "S&P Dow Jones Indices"). S&P Dow Jones Indices
+make any representation or warranty, express or implied, to the owners of the Licensee's Product(s) or any member of the public regarding the
+advisability of investing in securities generally or in Licensee's Product(s) particularly or the ability of the INDEX to track general market
+performance. Past performance of an index is not an indication or guarantee of future results. S&P Dow Jones Indices only relationship to
+Licensee with respect to the INDEX is the licensing of the Index and certain trademarks, service marks and/or trade names of S&P Dow Jones
+Indices and/or its licensors. The INDEX is determined, composed and calculated by S&P Dow Jones Indices without regard to Licensee or the
+9
+Licensee's Product(s). S&P Dow Jones Indices have no obligation to take the needs of Licensee or the owners of Licensee's Product(s) into
+consideration in determining, composing or calculating the INDEX. S&P Dow Jones Indices are responsible for and have not participated in the
+determination of the prices, and amount of Licensee's Product(s) or the timing of the issuance or sale of Licensee's Product(s) or in the
+determination or calculation of the equation by which Licensee's Product(s) is to be converted into cash, surrendered or redeemed, as the case
+may be. S&P Dow Jones Indices have no obligation or liability in connection with the administration, marketing or trading of Licensee's
+Product(s). There is no assurance that investment products based on the INDEX will accurately track index performance or provide positive
+Equity Derivatives Solutions
+
+The bank for a changing world
+BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+investment returns. S&P Dow Jones Indices LLC is not an investment or tax advisor. A tax advisor should be consulted to evaluate the impact
+of any tax-exempt securities on portfolios and the tax consequences of making any particular investment decision. Inclusion of a security within
+an index is not a recommendation by S&P Dow Jones Indices to buy, sell, or hold such security, nor is it considered to be investment advice.
+S&P DOW JONES INDICES DOES NOT GUARANTEE THE ADEQUACY, ACCURACY, TIMELINESS AND/OR THE COMPLETENESS OF
+THE INDEX OR ANY DATA RELATED THERETO OR ANY COMMUNICATION, INCLUDING BUT NOT LIMITED TO, ORAL OR WRITTEN
+COMMUNICATION (INCLUDING ELECTRONIC COMMUNICATIONS) WITH RESPECT THERETO. S&P DOW JONES INDICES SHALL NOT
+BE SUBJECT TO ANY DAMAGES OR LIABILITY FOR ANY ERRORS, OMISSIONS, OR DELAYS THEREIN. S&P DOW JONES INDICES
+MAKES NO EXPRESS OR IMPLIED WARRANTIES, AND EXPRESSLY DISCLAIMS ALL WARRANTIES, OF MERCHANTABILITY OR
+FITNESS FOR A PARTICULAR PURPOSE OR USE OR AS TO RESULTS TO BE OBTAINED BY THE LICENSEE, OWNERS OF THE
+LICENSEE'S PRODUCTS, OR ANY OTHER PERSON OR ENTITY FROM THE USE OF THE INDEX OR WITH RESPECT TO ANY DATA
+RELATED THERETO. WITHOUT LIMITING ANY OF THE FOREGOING, IN NO EVENT WHATSOEVER SHALL S&P DOW JONES INDICES
+BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES INCLUDING BUT NOT LIMITED
+TO, LOSS OF PROFITS, TRADING LOSSES, LOST TIME OR GOODWILL, EVEN IF THEY HAVE BEEN ADVISED OF THE POSSIBLITY OF
+SUCH DAMAGES, WHETHER IN CONTRACT, TORT, STRICT LIABILITY, OR OTHERWISE. THERE ARE NO THIRD PARTY
+BENEFICIARIES OF ANY AGREEMENTS OR ARRANGEMENTS BETWEEN S&P DOW JONES INDICES AND THE LICENSEE, OTHER
+THAN THE LICENSORS OF S&P DOW JONES INDICES.
+10
+Equity Derivatives Solutions
+
