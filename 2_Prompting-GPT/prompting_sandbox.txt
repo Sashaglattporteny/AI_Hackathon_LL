@@ -14,3 +14,20 @@ Underlying: "Components Information Components haeder and then Name" / Underlyin
 Strike: Put Strike / Strike Level / Strike Level or IndexiInitial / IndexiInitial / ShareiInitial / ETIiInitial
 Cap: 
 Barrier: 
+
+
+Identify Relevant Sections: Focus on sections that likely contain the requested information, such as the summary of terms, issuer details, financial product description, and key dates.
+
+Eliminate Redundant Information: Remove any repetitive or irrelevant information that does not pertain to the requested values.
+
+Condense Descriptions: Where possible, shorten lengthy descriptions or explanations without losing the essential information.
+
+Extract Key Details: Directly extract and list the requested details in a clear, concise format.
+
+We have 4096 Tokens per call 
+
+Optimize: 
+1. Adjust temperature - Check 
+2. Delete punctuation - WORKS
+3. REGEX - Isin, Issuer and Currency 
+
