@@ -1,1 +1,16 @@
 #Sandbox for prompt texting
+RegEx
+
+ISIN: XS2333422389 - (ISIN:\s*[A-Za-z0-9]{12})
+Issuer: Issuer - (?<=Issuer\s)\b[A-Za-z]+\b
+Currency: Settlement Currency / Currency / Currency on Nominal - ^(Settlement Currency|Currency|Currency on Nominal) [A-Z]{3}$
+Launch Date: Trade Date / Launch Date / Trade Date -((Trade|Launch) Date \d{2}\/\d{2}\/\d{4})|((Trade|Launch) Date \d{2}\/\d{2}\/\d{4})|((Trade|Launch) Date \d{2}\/\d{2}\/\d{4})
+Final Val. Day: Redemption Valuation Date / Determination Date / Final Valuation Date - (?<=Redemption Valuation Date \/ Determination Date \/ Final Valuation Date )(?:\d{2}\/\d{2}\/\d{4}|\d{2}\/\d{2}\/\d{4})
+Maturity Date: Maturity Date / Redemption Date - (?<=Maturity Date \/ Redemption Date )\b((0[1-9]|1[0-2])\/(0[1-9]|1\d|2[0-9]|3[0-1])\/(19|20)\d{2}|(0[1-9]|1\d|2[0-9]|3[0-1])\/(0[1-9]|1[0-2])\/(19|20)\d{2})\b
+
+Tokens
+-------
+Underlying: "Components Information Components haeder and then Name" / Underlying Indices / "Underlying Shares" / 
+Strike: Put Strike / Strike Level / Strike Level or IndexiInitial / IndexiInitial / ShareiInitial / ETIiInitial
+Cap: 
+Barrier: 
