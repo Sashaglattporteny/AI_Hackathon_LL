@@ -1,0 +1,17 @@
+# Define the text
+text = """[Your multiline text here]""" * 10  # Replace [Your multiline text here] with your actual text
+
+# Split the text into lines
+lines = text.split('\n')
+
+# Function to split text into chunks of a specified number of lines
+def split_text_into_chunks(lines, chunk_size):
+    for i in range(0, len(lines), chunk_size):
+        yield '\n'.join(lines[i:i+chunk_size])
+
+# Splitting the text every 30 lines
+chunk_size = 30
+chunks = list(split_text_into_chunks(lines, chunk_size))
+
+# Print the first chunk as a sample
+print(chunks[0])
