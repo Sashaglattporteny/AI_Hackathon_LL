@@ -1,3 +1,4 @@
+
 # Define the text
 text = """[Your multiline text here]""" * 10  # Replace [Your multiline text here] with your actual text
 
@@ -38,4 +39,42 @@ for key, chunk in chunks_dict.items():
 # Now, let's save the relevant chunks to a Python file
 with open('extraction.py', 'w') as file:
     file.write("extracted_chunks = {}\n".format(relevant_chunks))
+
+
+import re
+import string
+
+def clean_text(text):
+    # Normalize spaces and remove leading/trailing whitespaces
+    text = re.sub(r'\s+', ' ', text).strip()
+
+    # Normalize punctuation
+    text = re.sub(r'[\s]+([{}])'.format(re.escape(string.punctuation)), r'\1', text)
+
+    return text
+
+def remove_redundancies(text):
+    # Use a set to track unique sentences
+    seen_sentences = set()
+    optimized_text = []
+
+    sentences = re.split(r'(?<=[.!?]) +', text)
+    for sentence in sentences:
+        # Remove extra spaces and make lowercase for comparison
+        simplified_sentence = re.sub(r'\s+', ' ', sentence).lower().strip()
+
+        if simplified_sentence not in seen_sentences:
+            seen_sentences.add(simplified_sentence)
+            optimized_text.append(sentence)
+
+    return ' '.join(optimized_text)
+
+# Example usage
+long_text = """Long Text"""
+
+
+cleaned_text = clean_text(long_text)
+optimized_text = remove_redundancies(cleaned_text)
+print(optimized_text)
+
 
