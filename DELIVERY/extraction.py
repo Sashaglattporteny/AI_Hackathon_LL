@@ -74,7 +74,10 @@ def extract_fields(extracted_texts: Dict[str, str]) -> pd.DataFrame:
 
     # prompt
     prompt = f''''
-    You are the best financial data analyst in the world with special expertise on term sheets./
+    
+    You are the best financial data analyst in the world with special expertise on term sheets.
+
+    
     Your task is to go through these texts files {extracted_texts} and extract the value of the corresponding key elements listed here {COLUMNS}.
     You can use {prompting_category} as context to find the values./
     You need to deliver a dictionary as an output format (key: value(s)).
@@ -102,3 +105,23 @@ def extract_fields(extracted_texts: Dict[str, str]) -> pd.DataFrame:
     fields_df = pd.DataFrame(index=list(extracted_fields), columns=COLUMNS)
 
     return fields_df
+--------
+f"""
+    Act as the best financial analyst in the world.
+    Analyze the following text and extract the values in the specified format. 
+    Required values and formats:
+    - ISIN: a string of 12 characters.
+    - Issuer: a string representing the name of the issuer.
+    - Currency: the currency code.
+    - Launch Date: date in mm/dd/yyyy format.
+    - Final Val. Day: date in mm/dd/yyyy format.
+    - Maturity Date: date in mm/dd/yyyy format.
+    - Underlying: the name of the underlying asset.
+    - Strike: percentage (not equal to 100%).
+    - Cap: percentage (not equal to 100%).
+    - Barrier: percentage (not equal to 100%).
+
+    Text: {text}
+
+    Based on the analysis, provide the extracted information in a structured format with the category and corresponding value.
+    """
