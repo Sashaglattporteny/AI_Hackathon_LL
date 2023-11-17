@@ -31,3 +31,16 @@ Optimize:
 2. Delete punctuation - WORKS
 3. REGEX - Isin, Issuer and Currency 
 
+----
+
+Act as the best corporate finance teacher in the world. 
+Extract {ISIN, Issuer, Currency, Launch Date, Maturity date, Final Val. Day, Underlyings, Strike price, Barrier and Cap} of each text assuming that every document has a different structure and wording. 
+
+Your output = python dict, json compilant for pandas df conversion.
+
+Use this definitions: 
+Strike:  It is set at X% of the Initial Level for each underlying index. 
+[Strike price is a fixed price at which the holder of an option can buy (in the case of a call option) or sell (in the case of a put option) the underlying asset]
+Barrier: It is set at X% of the Initial Level for each underlying index. [Barriers can be either 'knock-in', where the option comes into existence if the barrier is breached, or 'knock-out', where the option is nullified if the barrier is breached]
+Cap: It is a number or a X% of return on the investment that can't exceed the principal amount. [Cap is an "upper limit" or the "maximum score" you can achieve on this financial game. It's there to put a limit on how much you can gain.] 
+
