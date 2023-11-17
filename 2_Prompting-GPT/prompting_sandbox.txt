@@ -36,7 +36,7 @@ Optimize:
 Act as the best corporate finance teacher in the world. 
 Extract {ISIN, Issuer, Currency, Launch Date, Maturity date, Final Val. Day, Underlyings, Strike price, Barrier and Cap} of each text assuming that every document has a different structure and wording. 
 
-Your output = python dict, json compilant for pandas df conversion.
+Your output = python dict, json compilant for pandas df conversion using category and value extracted. 
 
 Use this definitions: 
 Strike:  It is set at X% of the Initial Level for each underlying index. 
