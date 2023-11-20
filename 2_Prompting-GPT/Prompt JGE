@@ -1,0 +1,79 @@
+Extract the following values from the given financial term sheet:
+
+1. ISIN
+Definition: Always 12 digits with numbers and letters
+Reference: "ISIN: "
+Extracted Text: "BNP PARIBAS CORPORATE & INSTITUTIONAL BANKING The bank for a changing world Final Term Sheet as of March 13th, 2023 2Y Bonus Certificate Plus Worst-of on EURO STOXX 50®, FTSE100 and S&P 500® in USD Quanto Our ref. : CE25830MBG; ISIN: XS2490610263;"
+Verbatim Example: "ISIN: XS2490610263;"
+Answer: XS2490610263
+Conditions: Must exist
+
+2. Issuer
+Definition: A bank name or sigla
+Reference: "RBC"
+Extracted Text: "BNP PARIBAS CORPORATE & INSTITUTIONAL BANKING The bank for a changing world Final Term Sheet as of March 13th, 2023 2Y Bonus Certificate Plus Worst-of on EURO STOXX 50®, FTSE100 and S&P 500® in USD Quanto Our ref. : CE25830MBG; ISIN: XS2490610263;"
+Verbatim Example: ""BNP PARIBAS CORPORATE & INSTITUTIONAL BANKING"
+Answer: "BNP PARIBAS CORPORATE & INSTITUTIONAL BANKING"
+Conditions: Must exist
+
+3. Currency
+Definition: Final currency, the currency code
+Reference: "USD"
+Extracted Text: "BNP Paribas Arbitrage Issuance B.V. Launch Date 10.03.2023 Guarantor BNP Paribas, Paris Issue Date 17.03.2023 Guarantor Rating (Fitch / S&P / Moody's) - (AA-/A+/Aa3) Final Valuation 10.03.2025 SVSP 1320 Date Currency USD (Quanto)"
+Verbatim Example: "USD (Quanto)"
+Answer: "USD (Quanto)"
+Conditions: Must exist
+
+4. Underlying(s)
+Definition: Bloomberg ticker and name of the institutions
+Reference: ["NKY", "INDU", "SPY", "FTS5"]
+Extracted Text: "Underlying Indices i Name of Underlying Bloomberg Indexi Administrator Register Indexi Initial Code 1 DAX® DAX 15412.71 STOXX Ltd. Included 2 FTSE100 UKX 7608.92 FTSE Included International Limited 3 IBEX 35® IBEX 8718.00 SOCIEDAD Included DE BOLSAS S.A."
+Verbatim Example: ["DAX", "UKX", "IBEX"]
+Answer:  ["DAX", "UKX", "IBEX"]
+Conditions: Must exist, can be more than one
+
+5. Strike Level/Strike Price/Index Initial
+Definition: There must be a value for each one of the underlyings, must contain a minimum of 2 decimals
+Extracted Text: "Underlying Indices i Name of Underlying Bloomberg Indexi Administrator Register Indexi Initial Code 1 DAX® DAX 15412.71 STOXX Ltd. Included 2 FTSE100 UKX 7608.92 FTSE Included International Limited 3 IBEX 35® IBEX 8718.00 SOCIEDAD Included DE BOLSAS S.A."
+Verbatim Example: ["15412.71", "7608.92", "8718.00"]
+Answer: ["15412.71", "7608.92", "8718.00"]
+Conditions: Must exist, one for each underlying
+
+6. Launch Date/Trade Date/Strike Date
+Definition: A date form, be sure it is NOT ISSUE DATE
+Extracted Text: "Trade Date February 15th, 2022 Strike Date February 15th, 2022 Issue Date March 01st, 2022 Redemption Valuation May 15th, 2023 Date Redemption Date May 30th, 2023"
+Verbatim Example: "Strike Date February 15th, 2022"
+Answer: February 15th, 2022
+Conditions: Must exist
+
+7. Final Valuation Day/Redemption Valuation Date
+Definition: A date form, be sure it is NOT ISSUE DATE
+Extracted Text: "Trade Date February 15th, 2022 Strike Date February 15th, 2022 Issue Date March 01st, 2022 Redemption Valuation May 15th, 2023 Date Redemption Date May 30th, 2023"
+Verbatim Example: "Redemption Valuation May 15th, 2023"
+Answer: May 15th, 2023
+Conditions: Must exist
+
+8. Maturity/Redemption date
+Definition: A date form
+Extracted Text: "Trade Date February 15th, 2022 Strike Date February 15th, 2022 Issue Date March 01st, 2022 Redemption Valuation May 15th, 2023 Date Redemption Date May 30th, 2023"
+Verbatim Example: "Redemption Date May 30th, 2023"
+Answer: May 30th, 2023
+Conditions: Must exist
+
+9. Cap
+Definition: The maximum limit on the return of an investment, must be a number over 100
+Extracted Text: "Final Redemption On the Redemption Date, the Issuer shall redeem each Certificate at the following Cash Settlement Amount: 1) If WO IndexFinal is greater than or equal to 120% x WO IndexInitial: N x 120% 2) If a Knock-out Event has not occurred and WO IndexFinal is less than 120% x WO IndexInitial: N x max 108.20%."
+Verbatim Example: If WO IndexFinal is greater than or equal to 120% x WO IndexInitial
+Answer: 120%
+Condition: Could exist 
+
+10. Barrier/Bonus Barrier level/Knock-In Barrier Level/Knock-Out Barrier Level
+Definition: Number less than 100, can be found as a percentage
+Extracted Text: "Knock-out Level DAX® - 10,788.8970 (70% of Index1 FTSE100 - 5,326.2440 (70% of Index2 Initial) IBEX 35® - 6,102.60 (70% of Index3 Initial) Initial) Knock-out Determination Day The Redemption Valuation Date. Knock-out Valuation Time Specific Scheduled Closing Time of each Underlying Index on the Redemption Valuation Date. Knock-out Event A Knock-out Event shall be deemed to occur if, at the Knock-out Valuation Time on the Knock-out Determination Day, at least one Underlying Index closes at a level strictly less than its Knock-out Level."
+Verbatim Example: "DAX® - 10,788.8970 (70% of Index1 FTSE100 - 5,326.2440 (70% of Index2 Initial) IBEX 35® - 6,102.60 (70% of Index3 Initial)"
+Answer: 70
+Condition: Could exist 
+
+In cases of ambiguities or missing information, mark each value as N/A. The output should be in structured Python dictionary format for parsing into a pandas dataframe.
+Fields: ISIN, Issuer, Currency, Underlying(s), Strike, Launch Date, Final Valuation Day, Maturity, Cap, Barrier
+
