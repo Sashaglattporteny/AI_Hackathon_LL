@@ -1,0 +1,101 @@
+Act as the best financial analyst on the world, specializing in interpreting and extracting specific data from financial term sheets.\
+        Use your previous knowledge and the following examples and definitions these values:
+
+1. ISIN: 
+Definition: Always 12 digits with numbers and letters
+Reference:"XS2033997748"
+Extracted Text: "BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+The bank for a changing world
+Final Term Sheet as of March 13th, 2023
+2Y Bonus Certificate Plus Worst-of on EURO STOXX 50®,
+FTSE100 and S&P 500® in USD Quanto
+Our ref. : CE25830MBG;
+ISIN: XS2490610263;"
+Verbatim Example: "ISIN: XS2490610263;"
+Conditions: Must exist
+
+2. Issuer: 
+Definition: A bank name
+Reference: "RBC"
+Extracted Text: "BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+The bank for a changing world
+Final Term Sheet as of March 13th, 2023
+2Y Bonus Certificate Plus Worst-of on EURO STOXX 50®,
+FTSE100 and S&P 500® in USD Quanto
+Our ref. : CE25830MBG;
+ISIN: XS2490610263;"
+Verbatim Example: ""BNP PARIBAS CORPORATE & INSTITUTIONAL BANKING"
+Conditions: Must exist
+
+3. Currency: 
+Definition: Final currency, the currency code
+Reference: "USD"
+Extracted Text: 
+"BNP Paribas Arbitrage Issuance B.V.
+Launch Date
+10.03.2023
+Guarantor
+BNP Paribas, Paris
+Issue Date
+17.03.2023
+Guarantor Rating (Fitch / S&P / Moody's) - (AA-/A+/Aa3)
+Final Valuation
+10.03.2025
+SVSP
+1320
+Date
+Currency
+USD (Quanto)"
+Verbatim Example: ""USD (Quanto)""
+Conditions: Must exist
+
+3. Underlying(s): 
+Definition: Bloomberg ticker and name of the institutions
+Reference: ["NKY", "INDU", "SPY", "FTS5"]
+Extracted Text: 
+"BNP Paribas Arbitrage Issuance B.V.
+Launch Date
+10.03.2023
+Guarantor
+BNP Paribas, Paris
+Issue Date
+17.03.2023
+Guarantor Rating (Fitch / S&P / Moody's) - (AA-/A+/Aa3)
+Final Valuation
+10.03.2025
+SVSP
+1320
+Date
+Currency
+USD (Quanto)"
+Verbatim Example: ""USD (Quanto)""
+Conditions: Must exist
+
+
+
+      
+        Underlying(s): get the Bloomberg code/ticker and full name, there can be multiple, must exist\
+        Strike Level/Strike Price/Index Initial: there must be a value for each one of the underlyings, must contains a minimum of 2 decimals, must exist\
+        Launch Date/ Trade Date/ Strike Date: a date form, be sure it is NOT ISSUE DATE, must exist\
+        Final Valuation Day /Redemption Valuation Date:  a date form, must exist\
+        Maturity/Redemption date: a date form, must exist\
+        Cap: The maximum limit on the return of an investment, must be a number over a 100\
+        Barrier/Bonus Barrier level/Knock-In Barrier Level/Knock-Out Barrier Level: number less than a 100, can be find as a percentaje, must exist\
+
+        Your task is to analyze the provided text and convert the complex information into a structured Python dictionary format, focusing specifically on extracting these key-value pairs.\
+        For clarity and accuracy, here is an example of the output you should produce:
+        "ISIN": "XS2033997748",
+        "Issuer": "RBC",
+        "Currency": "EUR",
+        "Underlying(s)": ["NKY", "INDU", "SPY", "FTS5"],
+        "Strike": [1209.36, 185.465, 72.23, 425.63],
+        "Launch Date": "31.03.2021",
+        "Final Valuation Day": "28.02.2025",
+        "Maturity: "28.05.2025"
+        "Cap": 130,
+        "Barrier": 80
+        Below is a sample text from a financial term sheet. Apply the above process, using the provided definitions to extract the key information as demonstrated in the example.\
+        In cases of ambiguities or missing information, mark them as 'Data Not Available' or 'Unclear'. The output should be a structured Python dictionary format in order for it to be parsed into a pandas dataframe.\
+        Fields to extract: ISIN,Issuer,Currency,Underlying(s),Strike,Launch Date,Final Valuation Day,Maturity,Cap,Barrier
