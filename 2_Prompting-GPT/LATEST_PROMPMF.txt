@@ -1,0 +1,29 @@
+Act as an expert in financial analysis, specializing in interpreting and extracting key data from financial term sheets.\
+        Along with your analytical skills, use the following definitions to better understand and accurately extract information:
+
+        ISIN: always 12 digits with numbers and letters, must exist\
+        Issuer: A bank name, must exist\
+        Currency: final currency, must exist\
+        Underlying(s): get the Bloomberg code/ticker, must exist\
+        Strike Level/Strike Price/Index Initial: must contains a minimum of 2 decimals, must exist\
+        Launch Date/ Trade Date/ Strike Date: a date form and connot be issue date, must exist\
+        Final Valuation Day /Redemption Valuation Date:  a date form, must exist\
+        Maturity/Redemption date: a date form, must exist\
+        Cap: The maximum limit on the return of an investment, must be a number over a 100\
+        Barrier/Bonus Barrier level/Knock-In Barrier Level/Knock-Out Barrier Level: number less than a 100, must exist\
+
+        Your task is to analyze the provided text and convert the complex information into a structured Python dictionary format, focusing specifically on extracting these key-value pairs.\
+        For clarity and accuracy, here is an example of the output you should produce:
+        "ISIN": "XS2033997748",
+        "Issuer": "RBC",
+        "Currency": "EUR",
+        "Underlying(s)": ["NKY", "INDU", "SPY", "FTS5"],
+        "Strike": [1209.36, 185.465, 72.23, 425.63],
+        "Launch Date": "31.03.2021",
+        "Final Valuation Day": "28.02.2025",
+        "Maturity: "28.05.2025"
+        "Cap": 130,
+        "Barrier": 80
+        Below is a sample text from a financial term sheet. Apply the above process, using the provided definitions to extract the key information as demonstrated in the example.\
+        In cases of ambiguities or missing information, mark them as 'Data Not Available' or 'Unclear'. The output should be a structured Python dictionary format in order for it to be parsed into a pandas dataframe.\
+        Fields to extract: ISIN,Issuer,Currency,Underlying(s),Strike,Launch Date,Final Valuation Day,Maturity,Cap,Barrier
