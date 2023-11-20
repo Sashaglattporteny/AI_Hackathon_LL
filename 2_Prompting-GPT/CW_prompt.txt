@@ -1,0 +1,157 @@
+Act as an expert in financial analysis, specializing in interpreting and extracting key data from financial term sheets.\
+        Along with your analytical skills, use the following definitions to better understand and accurately extract information:
+
+        ISIN: it must be 12 characters containing numbers and letters, must exist\
+        Issuer: A bank name, must exist\
+        Currency: final currency, must exist\
+        Underlying(s): get the Bloomberg code/ticker, must exist\
+        Strike Level/Strike Price/Index Initial: must contains a minimum of 2 decimals, must exist\
+        Launch Date/ Trade Date/ Strike Date: a date form and connot be issue date, must exist\
+        Final Valuation Day /Redemption Valuation Date:  a date form, must exist\
+        Maturity/Redemption date: a date form, must exist\
+        Cap: The maximum limit on the return of an investment, must be a number over a 100, it often is under the Final Redemption section and is the maxium number that is above 100. Can not exist\
+        Barrier/Bonus Barrier level/Knock-In Barrier Level/Knock-Out Barrier Level: number less than a 100, must exist, if you cant find it, it can be calculated by taking the strike level and deviding it by the Knock-In Barrier Level\
+
+        Your task is to analyze the provided text and convert the complex information into a structured Python dictionary format, focusing specifically on extracting these key-value pairs.\
+        For clarity and accuracy, here is an example of the output you should produce from the text {text_example}:
+        "ISIN": "XS2033997748",
+        "Issuer": "BNP",
+        "Currency": "USD",
+        "Underlying(s)": ["DAX", "UKX", "IBEX"],
+        "Strike": [15412.71, 7608.92, 8718],
+        "Launch Date": "15.02.2022",
+        "Final Valuation Day": "15.05.2023",
+        "Maturity: "30.05.2023"
+        "Cap": 120,
+        "Barrier": 70
+        Below is a sample text from a financial term sheet. Apply the above process, using the provided definitions to extract the key information as demonstrated in the example.\
+        In cases of ambiguities or missing information, mark them as 'Data Not Available' or 'Unclear'. The output should be a structured Python dictionary format in order for it to be parsed into a pandas dataframe.\
+        Fields to extract: ISIN,Issuer,Currency,Underlying(s),Strike,Launch Date,Final Valuation Day,Maturity,Cap,Barrier
+
+
+
+text_example = 'Final Terms and Conditions (our ref. CE4247RAI) as of February 16th, 2022
+15M Capped Bonus Certificate Plus Worst-of on DAX®, FTSE100
+and IBEX 35® in USD Quanto
+Issuer
+BNP Paribas Issuance B.V. (S&P's A+)
+Guarantor
+BNP Paribas (S&P's A+ / Moody's Aa3 / Fitch AA-)
+Issue Type
+Certificate
+________________________________________________________________________________________________________________________________________________________________________________________
+Issue Amount
+USD 1,600,000
+Number of Certificates
+1,600
+Notional Amount per
+Certificate (N)
+1 Certificate = USD 1,000
+Currency
+USD Quanto
+Issue Price per
+Certificate
+100.00%
+Listing
+None
+________________________________________________________________________________________________________________________________________________________________________________________
+Trade Date
+February 15th, 2022
+Strike Date
+February 15th, 2022
+Issue Date
+March 01st, 2022
+Redemption Valuation
+May 15th, 2023
+Date
+Redemption Date
+May 30th, 2023
+________________________________________________________________________________________________________________________________________________________________________________________
+Underlying Indices
+i
+Name of Underlying
+Bloomberg
+Indexi
+Administrator
+Register
+Indexi
+Initial
+Code
+1
+DAX®
+DAX
+15412.71
+STOXX Ltd.
+Included
+2
+FTSE100
+UKX
+7608.92
+FTSE
+Included
+International
+Limited
+3
+IBEX 35®
+IBEX
+8718.00
+SOCIEDAD
+Included
+DE BOLSAS
+S.A.
+-
+Final Redemption
+On the Redemption Date, the Issuer shall redeem each Certificate at the following Cash
+Settlement Amount:
+1) If WO IndexFinal is greater than or equal to 120% x WO IndexInitial:
+N x 120%
+2) If a Knock-out Event has not occurred and WO IndexFinal is less than 120% x WO
+IndexInitial:
+N x max
+108.20%.
+WO IndexFinal
+WO IndexInitial
+Equity Derivatives Solutions / Structured Products - Funds Of Funds /
+1
+Family Offices
+romain.marsigny@bnpparibas.com
+
+BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+The bank for a changing world
+3) If a Knock-out Event has occurred:
+N x
+WO IndexFinal
+WO Index Initial
+Where
+WO Index is the Underlying Index with the worst performance from the Strike Date to the
+Redemption Valuation Date, defined as:
+" IndexInitial.
+3
+Index 'Final
+WO IndexInitial is the official closing level of WO Index on the Strike Date.
+WO IndexFinal is the official closing level of WO Index on the Redemption Valuation Date.
+Indexi
+Initial with i from 1 to 3 is the official closing level of the Indexi
+on the Strike Date.
+Indexi
+Final with i from 1 to 3 is the official closing level of the Indexi
+on the Redemption
+Valuation Date.
+Knock-out Level
+DAX® - 10,788.8970 (70% of Index1
+FTSE100 - 5,326.2440 (70% of Index2
+Initial)
+IBEX 35® - 6,102.60 (70% of Index3
+Initial)
+Initial)
+Knock-out
+Determination Day
+The Redemption Valuation Date.
+Knock-out Valuation
+Time
+Specific Scheduled Closing Time of each Underlying Index on the Redemption Valuation Date.
+Knock-out Event
+A Knock-out Event shall be deemed to occur if, at the Knock-out Valuation Time on the Knock-
+out Determination Day, at least one Underlying Index closes at a level strictly less than its Knock-
+out Level.'
