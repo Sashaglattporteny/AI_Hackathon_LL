@@ -1,0 +1,313 @@
+BNP PARIBAS
+The bank for a changing world
+CORPORATE & INSTITUTIONAL BANKING
+Term Sheet
+Final Terms and Conditions (our ref. CE4247RAI) as of February 16th, 2022
+15M Capped Bonus Certificate Plus Worst-of on DAX®, FTSE100
+and IBEX 35® in USD Quanto
+Issuer
+BNP Paribas Issuance B.V. (S&P's A+)
+Guarantor
+BNP Paribas (S&P's A+ / Moody's Aa3 / Fitch AA-)
+Issue Type
+Certificate
+________________________________________________________________________________________________________________________________________________________________________________________
+Issue Amount
+USD 1,600,000
+Number of Certificates
+1,600
+Notional Amount per
+Certificate (N)
+1 Certificate = USD 1,000
+Currency
+USD Quanto
+Issue Price per
+Certificate
+100.00%
+Listing
+None
+________________________________________________________________________________________________________________________________________________________________________________________
+Trade Date
+February 15th, 2022
+Strike Date
+February 15th, 2022
+Issue Date
+March 01st, 2022
+Redemption Valuation
+May 15th, 2023
+Date
+Redemption Date
+May 30th, 2023
+________________________________________________________________________________________________________________________________________________________________________________________
+Underlying Indices
+i
+Name of Underlying
+Bloomberg
+Indexi
+Administrator
+Register
+Indexi
+Initial
+Code
+1
+DAX®
+DAX
+15412.71
+STOXX Ltd.
+Included
+2
+FTSE100
+UKX
+7608.92
+FTSE
+Included
+International
+Limited
+3
+IBEX 35®
+IBEX
+8718.00
+SOCIEDAD
+Included
+DE BOLSAS
+S.A.
+-
+Final Redemption
+On the Redemption Date, the Issuer shall redeem each Certificate at the following Cash
+Settlement Amount:
+1) If WO IndexFinal is greater than or equal to 120% x WO IndexInitial:
+N x 120%
+2) If a Knock-out Event has not occurred and WO IndexFinal is less than 120% x WO
+IndexInitial:
+N x max
+108.20%.
+WO IndexFinal
+WO IndexInitial
+Equity Derivatives Solutions / Structured Products - Funds Of Funds /
+1
+Family Offices
+romain.marsigny@bnpparibas.com
+
+BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+The bank for a changing world
+3) If a Knock-out Event has occurred:
+N x
+WO IndexFinal
+WO Index Initial
+Where
+WO Index is the Underlying Index with the worst performance from the Strike Date to the
+Redemption Valuation Date, defined as:
+" IndexInitial.
+3
+Index 'Final
+WO IndexInitial is the official closing level of WO Index on the Strike Date.
+WO IndexFinal is the official closing level of WO Index on the Redemption Valuation Date.
+Indexi
+Initial with i from 1 to 3 is the official closing level of the Indexi
+on the Strike Date.
+Indexi
+Final with i from 1 to 3 is the official closing level of the Indexi
+on the Redemption
+Valuation Date.
+Knock-out Level
+DAX® - 10,788.8970 (70% of Index1
+FTSE100 - 5,326.2440 (70% of Index2
+Initial)
+IBEX 35® - 6,102.60 (70% of Index3
+Initial)
+Initial)
+Knock-out
+Determination Day
+The Redemption Valuation Date.
+Knock-out Valuation
+Time
+Specific Scheduled Closing Time of each Underlying Index on the Redemption Valuation Date.
+Knock-out Event
+A Knock-out Event shall be deemed to occur if, at the Knock-out Valuation Time on the Knock-
+out Determination Day, at least one Underlying Index closes at a level strictly less than its Knock-
+out Level.
+________________________________________________________________________________________________________________________________________________________________________________________
+Business Day
+Convention
+Following Business Day
+Payment Business Days New York
+Calculation Agent
+BNP Paribas Arbitrage S.N.C.
+Governing Law
+English
+Documentation
+The securities will be issued under the Issuer's Warrant and Certificate Programme (the
+"Programme") by way of Final Terms. Copies of the Programme's base prospectus (the "Base
+Prospectus") dated 4 June 2021 (which sets out the terms and conditions to be completed by
+the Final Terms) and any supplements thereto are available from BNP Paribas Arbitrage S.N.C.
+on request.
+In the event of any inconsistency between this termsheet and the Final Terms relating to the
+Certificates, the Final Terms will prevail.
+Form
+Clearing System Global Certificate
+Codes
+ISIN: XS2033997748
+-
+Common: 203399774
+-
+Valoren: 116600835
+-
+CFI: DEAVRB
+-
+FISN: BNPPIBV/VARI CTF NKG 20230530 BSKT
+-
+Issuer LEI
+7245009UXRIGIRYOBR48
+Reuters Ric for Structure XS2033997748=BNPP
+Common Depositary
+BNP Paribas Securities Services, Luxembourg Branch
+Minimum Trading Size
+1 Certificate (and multiples of 1 Certificate thereafter)
+Equity Derivatives Solutions / Structured Products - Funds Of Funds /
+2
+Family Offices
+romain.marsigny@bnpparibas.com
+
+BNP PARIBAS
+The bank for a changing world
+CORPORATE & INSTITUTIONAL BANKING
+Secondary Trading
+Daily price indications including accrued interest (dirty) will be published on Reuters, Telekurs
+and Bloomberg.
+No representation is made as to the existence of a market for the Certificates. BNP Paribas
+Arbitrage S.N.C. will endeavour to make a secondary market in the Certificates, subject to it
+being satisfied that normal market conditions prevail. Any prices indicated will be dependent
+upon factors affecting or likely to affect the value of the Certificates such as, but not limited to,
+the remaining time to the Redemption Date, the outstanding principal amount, the Issuer's or, if
+applicable, the Guarantor's credit risk, the performance and volatility of the underlying asset,
+interest rates, exchange rates, credit spreads, and any incidental costs. To the extent BNP
+Paribas Arbitrage S.N.C. holds Certificates that it can offer and subject to it being satisfied that
+normal market conditions prevail, such prices will have a bid-offer spread no greater than 1%.
+Holders should be aware that the secondary market price for any Certificate quoted on or after
+the fourth (4th) Clearing System Business Day preceding any date on which the Issuer is due to
+make a payment thereon, shall exclude the amount so payable per Certificate. The Holder of the
+Certificates on the record date, as determined by the rules of the relevant Clearing System, shall
+be entitled to receive or retain any such amount on the due date for payment thereof.
+Initial Settlement
+Delivery versus payment.
+BNP Paribas Arbitrage S.N.C. will settle through Clearstream 81851.
+Settlement must be made in Nominal.
+Selling Restrictions
+As set out in the Base Prospectus.
+________________________________________________________________________________________________________________________________________________________________________________________
+IMPORTANT INFORMATION
+Investors Responsibilities
+No action has been or will be taken in any jurisdiction that would, or is intended to, permit a public offering of the Certificates.
+The Certificates are sold to investors on the understanding that they will comply with all relevant securities laws and public offer requirements in
+the jurisdictions in which the Certificates are placed or resold, including, without limitation, the Prospectus Regulation and the relevant
+applicable laws or regulations in any EU member state relating thereto.
+Selling Restrictions
+The Certificates may not be offered or sold in the United States or to U.S. persons at any time (as defined in regulation S under the U.S.
+Securities Act of 1933 or the U.S. internal revenue code). The Certificates have not been and will not be registered under the U.S. Securities
+Act of 1933, as amended, or the securities laws of any state in the United States, and are subject to U.S. tax requirements. In purchasing the
+Certificates you represent and warrant that you are neither located in the United States nor a U.S. person and that you are not purchasing for
+the account or benefit of any such person. The Certificates may not be offered, sold, transferred or delivered without compliance with all
+applicable securities laws and regulations.
+Risk Analysis
+The Securities have no capital protection at any time and there can be a partial or total loss of any capital invested. Investment in the Securities
+is therefore highly speculative and should only be considered by persons who can afford to lose their entire investment.
+BNP Paribas is not providing the recipients of this document with any investment advice or recommendation to enter into any potential
+transaction. Any purchaser of Certificates, other than a BNP Paribas counterparty or distributor, will be purchasing the Certificates from such
+counterparty or distributor and will have no contractual relationship with BNP Paribas or any of its affiliates. In particular BNP Paribas will not be
+responsible for assessing the appropriateness or suitability of an investment in the Certificates in relation to such third parties. This document
+should be read together with the Base Prospectus and the applicable Final Terms for the Certificates. Any proposed issuance described in this
+document cannot be fully assessed without a careful review of the terms and conditions contained in the Base Prospectus and the Final Terms.
+In particular, potential investors should carefully read the sections headed "Risk Factors" in the Base Prospectus and the Final Terms for a full
+description of the potential risks associated with the Certificates, and "Offering and Sale", for certain limitations on the purchase and onward
+sales of the Certificates.
+Any indicative price quotations, investment cases or market analysis contained in this document or any related marketing materials we may
+have provided to you have been prepared on assumptions and parameters that reflect our good faith judgement or selection but must be
+subject to your own independent analysis and due diligence before you make any investment decision. Please note that there can be conflicts
+of interests between BNP Paribas and potential investors (see below) and we can therefore not assume any responsibility for the financial
+consequences of your investment decision, which must be independent. We require that you undertake your own independent due diligence
+Equity Derivatives Solutions / Structured Products - Funds Of Funds /
+3
+Family Offices
+romain.marsigny@bnpparibas.com
+
+The bank for a changing world
+BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+and avail yourself of your own advisors in order to assess the suitability of Certificates in relation to your own financial objectives. Accordingly, if
+you decide to purchase Certificates, you will be deemed to understand and accept the terms, conditions and risks associated with the
+Certificates. You will also be deemed to act for your own account, to have made your own independent decision to purchase the Certificates
+and to declare that such transaction is appropriate for you based upon your own judgement the advice from such advisers as you have deemed
+necessary to consult. Each holder of the Certificates shall also be deemed to assume and be responsible for any and all taxes of any jurisdiction
+or governmental or regulatory authority and should consult their own tax advisers in this respect.
+You should note and assess for the purposes of any investment decision that members of the BNP Paribas group may face possible conflicts of
+interest in connection with certain duties under the Certificates, such as trading in an underlying for their own account or for the account of
+others, receiving fees in a number of capacities or taking market views which are not consistent with the objective of the Certificates.
+Investors should note that BNP Paribas acting as Guarantor is licensed as a credit institution in France and as such is subject to the
+new resolution regime introduced by the EU Bank Recovery and Resolution Directive of 15 May 2014. This new regulation, among
+others, gives resolution authorities the power to amend the key terms of the Guarantee, to reduce the amounts payable by the
+Guarantor under the terms of the Guarantee (including a reduction to zero) and convert the amounts due under the Guarantee into
+shares or other securities. You may not be able to recover all or even part of the amount due under the Certificates (if any) from the
+Guarantor under the Guarantee or you may receive a different security issued by the Guarantor (or another person) in place of the
+amount (if any) due to you under the Certificates by the Issuer, which may be worth significantly less than the amount due to you
+under the Certificates at expiry.
+BNP Paribas is lead supervised by the ECB and the ACPR and is authorised by the ECB and the ACPR in France. BNP Paribas is incorporated
+in France with Limited Liability. Registered Office: 16 Boulevard des Italiens, 75009 Paris, France. www.bnpparibas.com.
+Index Disclaimer
+Neither the Issuer nor the Guarantor shall have any liability for any act or failure to act by an Index Sponsor in connection with the calculation,
+adjustment or maintenance of an Index. Except as disclosed prior to the Issue Date, neither the Issuer, the Guarantor nor their affiliates has any
+affiliation with or control over an Index or Index Sponsor or any control over the computation, composition or dissemination of an Index.
+Although the Calculation Agent will obtain information concerning an Index from publicly available sources it believes reliable, it will not
+independently verify this information. Accordingly, no representation, warranty or undertaking (express or implied) is made and no responsibility
+is accepted by the Issuer, the Guarantor, their affiliates or the Calculation Agent as to the accuracy, completeness and timeliness of information
+concerning an Index.
+DAX® Index
+This financial instrument is neither sponsored nor promoted, distributed or in any other manner supported by Deutsche Börse AG (the
+"Licensor"). The Licensor does not give any explicit or implicit warranty or representation, neither regarding the results deriving from the use of
+the Index and/or the Index Trademark nor regarding the Index value at a certain point in time or on a certain date nor in any other respect. The
+Index is calculated and published by the Licensor. Nevertheless, as far as admissible under statutory law the Licensor will not be liable vis-à-vis
+third parties for potential errors in the Index. Moreover, there is no obligation for the Licensor vis-à-vis third parties, including investors, to point
+out potential errors in the Index.
+Neither the publication of the Index by the Licensor nor the granting of a license regarding the Index as well as the Index Trademark for the
+utilization in connection with the financial instrument or other securities or financial products, which one derived from the Index, represents a
+recommendation by the Licensor for a capital investment or contains in any manner a warranty or opinion by the Licensor with respect to the
+attractiveness of an investment in this product.
+In its capacity as sole owner of all rights to the Index and the Index Trademark the Licensor has solely licensed to the issuer of the financial
+instrument and its affiliates the utilization of the Index and the Index Trademark as well as any reference to the Index and the Index Trademark
+in connection with the financial instrument.
+4
+FTSE100 Index
+romain.marsigny@bnpparibas.com
+The Securities are not in any way sponsored, endorsed, sold or promoted by FTSE International Limited ("FTSE") or by the London Stock
+Exchange Plc (the "Exchange") or by The Financial Times Limited ("FT") and neither FTSE nor Exchange nor FT makes any warranty or
+representation whatsoever, expressly or impliedly, either as to the results to be obtained from the use of the FTSE100 Index ("the Index") and/or
+Equity Derivatives Solutions / Structured Products - Funds Of Funds /
+Family Offices
+
+The bank for a changing world
+BNP PARIBAS
+CORPORATE & INSTITUTIONAL BANKING
+the figure at which the said Index stands at any particular time on any particular day or otherwise. The Index is compiled and calculated by
+FTSE. However, neither FTSE nor Exchange nor FT shall be liable (whether in negligence or otherwise) to any person for any error in the Index
+and neither FTSE or Exchange or FT shall be under any obligation to advise any person of any error therein. "FTSE®", "FT-SE®" and
+"Footsie®" are trade marks of the London Stock Exchange Plc and The Financial Times Limited and are used by FTSE International Limited
+under licence. "All-World", "All-Share" and "All-Small" and "FTSE4Good" are trade marks of FTSE International Limited.
+IBEX 35® Index
+Sociedad de Bolsas, owner of the IBEX 35® Index and registered holder of the corresponding trademarks associated with it, does not sponsor,
+promote, or in any way evaluate the advisability of investing in this financial product and the authorisation granted to BNP PARIBAS ISSUANCE
+B.V. (the "Entity") for the use of IBEX 35® trademark does not imply any approval in relation with the information offered by BNP PARIBAS
+ISSUANCE B.V. or with the usefulness or interest in the investment in the above mentioned financial product.
+Sociedad de Bolsas does not warrant in any case nor for any reason whatsoever:
+a) The continuity of the composition of the IBEX 35® Index exactly as it is today or at any other time in the past.
+b) The continuity of the method for calculating the IBEX 35® Index exactly as it is calculated today or at any other time in the past.
+c) The continuity of the calculation, formula and publication of the IBEX 35® Index.
+d) The precision, integrity or freedom from errors or mistakes in the composition and calculation of the IBEX 35® Index.
+e) The suitability of the IBEX 35 Index for the anticipated purposes for the financial product.
+The parties thereto acknowledge the rules for establishing the prices of the securities included in the IBEX 35® Index and of said index in
+accordance with the free movement of sales and purchase orders within a neutral and transparent market and that the parties thereto undertake
+to respect the same and to refrain from any action not in accordance therewith.
+5
+romain.marsigny@bnpparibas.com
+Equity Derivatives Solutions / Structured Products - Funds Of Funds /
+Family Offices
+
