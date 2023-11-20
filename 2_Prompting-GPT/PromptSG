@@ -1,9 +1,9 @@
 Act as the best financial analyst on the world, specializing in interpreting and extracting specific data from financial term sheets.\
-        Use your previous knowledge and the following examples and definitions these values:
-
-1. ISIN: 
+        Use your previous knowledge and the following structure (Value, definition, example, extracted text and verbatim example, answer) to get all of the 10 values correctly (ISIN,Issuer,Currency,Underlying(s),Strike,Launch Date,Final Valuation Day,Maturity,Cap,Barrier
+): 
+1. 
+Value : ISIN
 Definition: Always 12 digits with numbers and letters
-Reference:"XS2033997748"
 Extracted Text: "BNP PARIBAS
 CORPORATE & INSTITUTIONAL BANKING
 The bank for a changing world
@@ -13,10 +13,12 @@ FTSE100 and S&P 500® in USD Quanto
 Our ref. : CE25830MBG;
 ISIN: XS2490610263;"
 Verbatim Example: "ISIN: XS2490610263;"
+Answer: XS2490610263
 Conditions: Must exist
 
-2. Issuer: 
-Definition: A bank name
+2. 
+Value: Issuer
+Definition: A bank name or sigla
 Reference: "RBC"
 Extracted Text: "BNP PARIBAS
 CORPORATE & INSTITUTIONAL BANKING
@@ -27,9 +29,11 @@ FTSE100 and S&P 500® in USD Quanto
 Our ref. : CE25830MBG;
 ISIN: XS2490610263;"
 Verbatim Example: ""BNP PARIBAS CORPORATE & INSTITUTIONAL BANKING"
+Answer: "BNP PARIBAS CORPORATE & INSTITUTIONAL BANKING"
 Conditions: Must exist
 
-3. Currency: 
+3. 
+Value: Currency
 Definition: Final currency, the currency code
 Reference: "USD"
 Extracted Text: 
@@ -48,54 +52,188 @@ SVSP
 Date
 Currency
 USD (Quanto)"
-Verbatim Example: ""USD (Quanto)""
+Verbatim Example: "USD (Quanto)"
+aNSWER: "USD (Quanto)"
 Conditions: Must exist
 
-3. Underlying(s): 
+4.
+Value: Underlying(s): 
 Definition: Bloomberg ticker and name of the institutions
 Reference: ["NKY", "INDU", "SPY", "FTS5"]
 Extracted Text: 
-"BNP Paribas Arbitrage Issuance B.V.
-Launch Date
-10.03.2023
-Guarantor
-BNP Paribas, Paris
+"Underlying Indices
+i
+Name of Underlying
+Bloomberg
+Indexi
+Administrator
+Register
+Indexi
+Initial
+Code
+1
+DAX®
+DAX
+15412.71
+STOXX Ltd.
+Included
+2
+FTSE100
+UKX
+7608.92
+FTSE
+Included
+International
+Limited
+3
+IBEX 35®
+IBEX
+8718.00
+SOCIEDAD
+Included
+DE BOLSAS
+S.A."
+Verbatim Example: ["DAX", "UKX", "IBEX"]
+Answer:  ["DAX", "UKX", "IBEX"]
+Conditions: Must exist, can be more than one
+
+5. 
+Value: Strike Level/Strike Price/Index Initial
+Definition: there must be a value for each one of the underlyings, must contains a minimum of 2 decimals
+Extracted text: ""Underlying Indices
+i
+Name of Underlying
+Bloomberg
+Indexi
+Administrator
+Register
+Indexi
+Initial
+Code
+1
+DAX®
+DAX
+15412.71
+STOXX Ltd.
+Included
+2
+FTSE100
+UKX
+7608.92
+FTSE
+Included
+International
+Limited
+3
+IBEX 35®
+IBEX
+8718.00
+SOCIEDAD
+Included
+DE BOLSAS
+S.A."
+Verbatim example: ["15412.71", "7608.92", "8718.00"]
+Answer: ["15412.71", "7608.92", "8718.00"]
+Conditions: Must exist, one for each underlying
+
+6. 
+Value: Launch Date/ Trade Date/ Strike Date
+Definition: A date form, be sure it is NOT ISSUE DATE
+Extracted text: "Trade Date
+February 15th, 2022
+Strike Date
+February 15th, 2022
 Issue Date
-17.03.2023
-Guarantor Rating (Fitch / S&P / Moody's) - (AA-/A+/Aa3)
-Final Valuation
-10.03.2025
-SVSP
-1320
+March 01st, 2022
+Redemption Valuation
+May 15th, 2023
 Date
-Currency
-USD (Quanto)"
-Verbatim Example: ""USD (Quanto)""
+Redemption Date
+May 30th, 2023"
+Verbatim example: "Strike Date February 15th, 2022"
+Answer: February 15th, 2022"
 Conditions: Must exist
 
+7. 
+Value: Final Valuation Day /Redemption Valuation Date
+Definition: A date form, be sure it is NOT ISSUE DATE
+Extracted text: "Trade Date
+February 15th, 2022
+Strike Date
+February 15th, 2022
+Issue Date
+March 01st, 2022
+Redemption Valuation
+May 15th, 2023
+Date
+Redemption Date
+May 30th, 2023"
+Verbatim example: "Redemption Valuation
+May 15th, 2023"
+Answer: Answer:  May 15th, 2023
+Conditions: Must exist
 
+8. 
+Value:  Maturity/Redemption date
+Definition: A date form
+Extracted text: "Trade Date
+February 15th, 2022
+Strike Date
+February 15th, 2022
+Issue Date
+March 01st, 2022
+Redemption Valuation
+May 15th, 2023
+Date
+Redemption Date
+May 30th, 2023"
+Verbatim example: "Redemption Date May 30th, 2023"
+Answer:  May 30th, 2023
+Conditions: Must exist
 
-      
-        Underlying(s): get the Bloomberg code/ticker and full name, there can be multiple, must exist\
-        Strike Level/Strike Price/Index Initial: there must be a value for each one of the underlyings, must contains a minimum of 2 decimals, must exist\
-        Launch Date/ Trade Date/ Strike Date: a date form, be sure it is NOT ISSUE DATE, must exist\
-        Final Valuation Day /Redemption Valuation Date:  a date form, must exist\
-        Maturity/Redemption date: a date form, must exist\
-        Cap: The maximum limit on the return of an investment, must be a number over a 100\
-        Barrier/Bonus Barrier level/Knock-In Barrier Level/Knock-Out Barrier Level: number less than a 100, can be find as a percentaje, must exist\
+ 9. 
+Value: Cap
+Definition: The maximum limit on the return of an investment, must be a number over a 100
+Extracted text: "Final Redemption
+On the Redemption Date, the Issuer shall redeem each Certificate at the following Cash
+Settlement Amount:
+1) If WO IndexFinal is greater than or equal to 120% x WO IndexInitial:
+N x 120%
+2) If a Knock-out Event has not occurred and WO IndexFinal is less than 120% x WO
+IndexInitial:
+N x max
+108.20%."
+Verbatim example: If WO IndexFinal is greater than or equal to 120% x WO IndexInitial
+Answer: 120%
+Condition: Could exist 
 
-        Your task is to analyze the provided text and convert the complex information into a structured Python dictionary format, focusing specifically on extracting these key-value pairs.\
-        For clarity and accuracy, here is an example of the output you should produce:
-        "ISIN": "XS2033997748",
-        "Issuer": "RBC",
-        "Currency": "EUR",
-        "Underlying(s)": ["NKY", "INDU", "SPY", "FTS5"],
-        "Strike": [1209.36, 185.465, 72.23, 425.63],
-        "Launch Date": "31.03.2021",
-        "Final Valuation Day": "28.02.2025",
-        "Maturity: "28.05.2025"
-        "Cap": 130,
-        "Barrier": 80
-        Below is a sample text from a financial term sheet. Apply the above process, using the provided definitions to extract the key information as demonstrated in the example.\
-        In cases of ambiguities or missing information, mark them as 'Data Not Available' or 'Unclear'. The output should be a structured Python dictionary format in order for it to be parsed into a pandas dataframe.\
-        Fields to extract: ISIN,Issuer,Currency,Underlying(s),Strike,Launch Date,Final Valuation Day,Maturity,Cap,Barrier
+10. 
+Value: Barrier/Bonus Barrier level/Knock-In Barrier Level/Knock-Out Barrier Level:
+Definition: Number less than a 100, can be find as a percentaje
+Extracted text: "Knock-out Level
+DAX® - 10,788.8970 (70% of Index1
+FTSE100 - 5,326.2440 (70% of Index2
+Initial)
+IBEX 35® - 6,102.60 (70% of Index3
+Initial)
+Initial)
+Knock-out
+Determination Day
+The Redemption Valuation Date.
+Knock-out Valuation
+Time
+Specific Scheduled Closing Time of each Underlying Index on the Redemption Valuation Date.
+Knock-out Event
+A Knock-out Event shall be deemed to occur if, at the Knock-out Valuation Time on the Knock-
+out Determination Day, at least one Underlying Index closes at a level strictly less than its Knock-
+out Level."
+Verbatim example: "DAX® - 10,788.8970 (70% of Index1
+FTSE100 - 5,326.2440 (70% of Index2
+Initial)
+IBEX 35® - 6,102.60 (70% of Index3
+Initial)"
+Answer: 70
+Condition: Could exist 
+
+In cases of ambiguities or missing information, mark each value as N/A. The output should be a structured Python dictionary format in order for it to be parsed into a pandas dataframe.\
+Fields: ISIN,Issuer,Currency,Underlying(s),Strike,Launch Date,Final Valuation Day,Maturity,Cap,Barrier
