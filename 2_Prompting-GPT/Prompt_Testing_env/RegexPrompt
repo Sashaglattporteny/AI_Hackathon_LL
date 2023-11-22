@@ -1,0 +1,67 @@
+--REGEX (Pre extraction)
+
+import re
+import numpy as np
+
+def extract_financial_data_from_context(text, pattern):
+    lines = text.split('\n')
+    for i, line in enumerate(lines):
+        if re.search(pattern, line):
+            start = max(0, i - 5)
+            end = min(len(lines), i + 6)
+            context = '\n'.join(lines[start:end])
+
+            data = {
+                "ISIN": re.search(r"\b[A-Z0-9]{12}\b", context),
+                "Currency": re.search(r"\b(?:USD|EUR|JPY|GBP|AUD|CAD|CHF|CNY|SEK|NZD|MXN|SGD|HKD|NOK|KRW|TRY|INR|RUB|BRL|ZAR|DKK|PLN|TWD|THB|IDR|HUF|CZK|ILS|CLP|PHP|AED|COP|SAR|MYR|RON)\b", context),
+                "Underlying(s)": re.findall(r"\b[A-Z]{2,5}\d{0,2}\b", context),
+                "Strike": re.findall(r"\b\d+\.\d{2,}\b", context),
+                "Launch/Trade/Strike Date": re.search(r"(Launch Date|Trade Date|Strike Date)[:\s]*\b\d{1,2}[./-]\d{1,2}[./-]\d{2,4}\b", context),
+                "Final Valuation/Redemption Date": re.search(r"(Final Valuation Day|Redemption Valuation Date)[:\s]*\b\d{1,2}[./-]\d{1,2}[./-]\d{2,4}\b", context),
+                "Maturity/Redemption Date": re.search(r"(Maturity|Redemption Date)[:\s]*\b\d{1,2}[./-]\d{1,2}[./-]\d{2,4}\b", context),
+                "Cap": re.search(r"\b(1[0-9][0-9]|[2-9][0-9]{2,})\b", context),
+                "Barrier": re.search(r"\b[1-9]?[0-9](\.\d+)?%?\b", context)
+            }
+
+            # Convert the match objects to strings, if found, or replace with empty string or NaN
+            for key in data:
+                if data[key]:
+                    if key == "Underlying(s)":
+                        # Keep only the first abbreviation for each underlying
+                        data[key] = list(set(data[key]))
+                    else:
+                        data[key] = data[key].group(0)
+                else:
+                    data[key] = np.nan
+
+            return data
+
+    return "No match found"
+
+# Example usage
+pattern = "Your REGEX pattern here"  # Replace with your specific pattern
+with open('your_file.txt', 'r') as file:
+    text = file.read()
+
+extracted_data = extract_financial_data_from_context(text, pattern)
+print(extracted_data)
+
+--GPT API - Applied to extracted data 
+
+Act as an expert in financial analysis, specializing in interpreting and extracting key data from financial term sheets. Utilize your analytical skills to extract key financial information from the provided text with the following constraints:
+
+- ISIN: Always 12 alphanumeric characters. Use any 12 alphanumeric characters from the document if unclear.
+- Issuer: Must be a bank name.
+- Currency: Must be a valid currency.
+- Underlying(s): Extract Bloomberg codes/tickers, keeping only the first abbreviation for each. Multiple entries should be separated by commas.
+- Strike: Must contain at least 2 decimals; ensure these values are close to 'Underlying(s)'.
+- Launch Date/Trade Date/Strike Date: Present in date format, excluding the issue date.
+- Final Valuation Day/Redemption Valuation Date: Present in date format.
+- Maturity/Redemption date: Present in date format.
+- Cap: A number over 100; a percentage close to an index. If unclear, use an empty string or NaN.
+- Barrier/Bonus Barrier/Knock-In Barrier/Knock-Out Barrier: A percentage less than 100. If unclear, use an empty string or NaN.
+
+In cases of ambiguity or missing data, use an empty string or NaN. Provide the output in a Python dictionary format.
+
+Process the following text to extract this information:
+{text}
